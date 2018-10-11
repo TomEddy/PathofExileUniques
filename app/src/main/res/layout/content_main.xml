@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorBackground"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/All_but"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="All"
+            android:textColor="@color/colorText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Catagories_but"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Catagories"
+            android:textColor="@color/colorText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Search_but"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Search"
+            android:textColor="@color/colorText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/MyUniques_but"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="My Uniques"
+            android:textColor="@color/colorText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/amulet_but"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Amulets"
+            android:textColor="@color/colorText"
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/belt_but"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Belts"
+            android:textColor="@color/colorText"
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ItemDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@drawable/arakutiki" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
