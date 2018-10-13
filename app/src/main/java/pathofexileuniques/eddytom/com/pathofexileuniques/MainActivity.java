@@ -277,6 +277,93 @@ private void setUp(){
     Unique UmbilicusImmortalis = new Unique("Umbilicus Immortalis",1,temp,R.drawable.umbilicious);
     Unique WurmsMolt = new Unique("Wurm's Molt",1,temp,R.drawable.wurmsmolt);
 
+//Rings - code 2
+    Unique AhkelisMeadow = new Unique("Ahkeli's Meadow",2,temp,R.drawable.ahkelimeadow);
+    Unique AhkelisMountain = new Unique("Ahkeli's Mountain",2,temp,R.drawable.ahkelimountain);
+    Unique AhkelisValley = new Unique("Ahkeli's Valley",2,temp,R.drawable.ahkelivalley);
+    Unique Andvarius = new Unique("Andvarius",2,temp,R.drawable.andv);
+    Unique AnglersPlait = new Unique("Angler's Plait",2,temp,R.drawable.anglerspl);
+    //Bereks Pass
+    //Bereks Respite
+    Unique Blackheart = new Unique("Blackheart",2,temp,R.drawable.blackheart);
+    Unique Bloodboil = new Unique("Bloodboil",2,temp,R.drawable.bloodboil);
+    Unique BrinerotMark = new Unique("Brinerot Mark",2,temp,R.drawable.brinenotmark);
+//Call of the Brotherhood
+    Unique DeathRush = new Unique("Death Rush",2,temp,R.drawable.deathrush);
+    Unique DoedresDamning = new Unique("Doedre's Damning",2,temp,R.drawable.doesdresdamning);
+    Unique DreamFragments = new Unique("Dream Fragments",2,temp,R.drawable.dreamfragments);
+    Unique Emberwake = new Unique("Emberwake",2,temp,R.drawable.emberwake);
+    Unique EssenceWorm = new Unique("Essence Worm",2,temp,R.drawable.essenceworm);
+    Unique GiftsfromAbove = new Unique("Gifts from Above",2,temp,R.drawable.giftssfromabove);
+    Unique HeartboundLoop = new Unique("Heartbound Loop",2,temp,R.drawable.heartboundloop);
+    Unique KaomsSign = new Unique("Kaom's Sign",2,temp,R.drawable.kaomssign);
+    Unique KaomsWay = new Unique("Kaom's Way",2,temp,R.drawable.kaomsway);
+    Unique Kikazaru = new Unique("Kikazaru",2,temp,R.drawable.kikazaru);
+    Unique LeHeupofAll = new Unique("Le Heup of All",2,temp,R.drawable.leheup);
+    Unique LorisLantern = new Unique("Lori's Lantern",2,temp,R.drawable.lorislantern);
+    Unique MalachaisArtifice = new Unique("Malachai's Artifice",2,temp,R.drawable.malachaisartifice);
+    Unique MarkofSubmission = new Unique("Mark of Submission",2,temp,R.drawable.markofsubmission);
+    Unique MarkoftheElder = new Unique("Mark of the Elder",2,temp,R.drawable.markoftheelder);
+    Unique MarkoftheShaper = new Unique("Mark of the Shaper",2,temp,R.drawable.markoftheshaper);
+    Unique MingsHeart = new Unique("Ming's Heart",2,temp,R.drawable.mingsheart);
+    Unique MokousEmbrace = new Unique("Mokou's Embrace",2,temp,R.drawable.mokousembrace);
+    Unique MutewindSeal = new Unique("Mutewind Seal",2,temp,R.drawable.mutewindseal);
+    Unique NgamahusSign = new Unique("Ngamahu's Sign",2,temp,R.drawable.ngamahussign);
+    Unique PerandusSignet = new Unique("Perandus Signet",2,temp,R.drawable.peransussignet);
+    Unique Praxis = new Unique("Praxis",2,temp,R.drawable.praxis);
+    Unique PrecursorsEmblem1 = new Unique("Precursor's Emblem (Endurance, Frenzy and Power Charge)",2,temp,R.drawable.percusersemblem);
+    //Prec2 -6
+    //Putembos 123
+    Unique Pyre = new Unique("Pyre",2,temp,R.drawable.pyre);
+    Unique RedbladeBand = new Unique("Redblade Band",2,temp,R.drawable.redbladeband);
+    //Regwald
+    Unique RomirasBanquet = new Unique("Romira's Banquet",2,temp,R.drawable.romirasbanquet);
+    Unique ShavronnesRevelation = new Unique("Shavronne's Revelation",2,temp,R.drawable.shavronnesrevelation);
+    Unique SibylsLament = new Unique("Sibyl's Lament",2,temp,R.drawable.sibylslament);
+    Unique Snakepit = new Unique("Snakepit",2,temp,R.drawable.snakepit);
+    Unique Stormfire = new Unique("Stormfire",2,temp,R.drawable.stormfire);
+    Unique TasaliosSign = new Unique("Tasalio's Sign",2,temp,R.drawable.tasaliossign);
+    Unique TheHungryLoop = new Unique("The Hungry Loop",2,temp,R.drawable.thehungryloop);
+    Unique ThePariah = new Unique("The Pariah",2,temp,R.drawable.thepariah);
+    //The tamin
+    Unique TheWardensBrand = new Unique("The Warden's Brand",2,temp,R.drawable.thewardensband);
+    Unique ThiefsTorment = new Unique("Thief's Torment",2,temp,R.drawable.thiefstorment);
+    Unique Timeclasp = new Unique("Timeclasp",2,temp,R.drawable.timeclasp);
+    //Uzaza's
+    //Valakos
+    //The rest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
