@@ -86,12 +86,40 @@
             android:id="@+id/belt_but"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="10dp"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:layout_weight="1"
             android:background="@drawable/round_but"
             android:text="Belts"
+            android:textColor="@color/colorText"
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/ring_but"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_but"
+            android:text="Rings"
+            android:textColor="@color/colorText"
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/quiver_but"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_but"
+            android:text="Quivers"
             android:textColor="@color/colorText"
             android:textSize="30sp"
             android:visibility="gone" />
@@ -103,6 +131,30 @@
             android:layout_weight="1"
             android:visibility="gone"
             app:srcCompat="@drawable/arakutiki" />
+
+        <ImageView
+            android:id="@+id/searchDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@drawable/arakutiki" />
+
+        <AutoCompleteTextView
+            android:id="@+id/ItemSearch"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorText"
+            android:hint="Search"
+            android:dropDownHeight="match_parent"
+            android:dropDownWidth="match_parent"
+            android:imeOptions="normal"
+            android:popupBackground="@android:color/background_light"
+            android:textColor="@color/colorBackground"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
