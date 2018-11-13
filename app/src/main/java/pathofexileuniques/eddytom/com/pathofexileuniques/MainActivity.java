@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
                 rings.setVisibility(View.GONE);
                 quivers.setVisibility(View.GONE);
                 counter = 0;
-                tempList = allUniques;
+                tempList = null;
+                tempList = (ArrayList<Unique>) allUniques.clone();
                 display.setImageResource(allUniques.get(0).getImage_Resource());
                 // Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                  //       .setAction("Action", null).show();
@@ -111,13 +112,13 @@ public class MainActivity extends AppCompatActivity {
                 rings.setVisibility(View.GONE);
                 quivers.setVisibility(View.GONE);
 
-                for(int i = 0; i< allUniques.size(); i++){
-                    if(allUniques.get(i).getCatagory() != 0 ){
-                        allUniques.remove(i);
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCatagory() != 0 ){
+                        tempList.remove(i);
                         i--;
                     }
                 }
-                display.setImageResource(allUniques.get(0).getImage_Resource());
+                display.setImageResource(tempList.get(0).getImage_Resource());
                 display.setVisibility(View.VISIBLE);
             }
         });
@@ -467,6 +468,143 @@ private void setUp(){
             Unique TheIronFortress = new Unique("The Iron Fortress", 4, temp, R.drawable.theironfortress);
             Unique WallofBrambles = new Unique("Wall of Brambles", 4, temp, R.drawable.wallofbrambles);
 
+            Unique Ashrend = new Unique("Ashrend", 4, temp, R.drawable.ashrend);
+            Unique Briskwrap = new Unique("Briskwrap", 4, temp, R.drawable.briskwrap);
+            Unique BronnsLithe = new Unique("Bronn's Lithe", 4, temp, R.drawable.brommslithe);
+            Unique CosprisWill = new Unique("Cospri's Will", 4, temp, R.drawable.cospriswill);
+            Unique FoxsFortune = new Unique("Fox's Fortune", 4, temp, R.drawable.foxsfourtune);
+    Unique Foxshade = new Unique("Foxshade", 4, temp, R.drawable.foxshade);
+    Unique HyrrisIre = new Unique("Hyrri's Ire", 4, temp, R.drawable.hyrrisire);
+    Unique Kintsugi = new Unique("Kintsugi", 4, temp, R.drawable.kitsugi);
+    Unique QueenoftheForest = new Unique("Queen of the Forest", 4, temp, R.drawable.queenoftheforest);
+    Unique ThePerfectForm = new Unique("The Perfect Form", 4, temp, R.drawable.theperfectform);
+    Unique TheRatCage = new Unique("The Rat Cage", 4, temp, R.drawable.theratcage);
+    Unique TheSnowblindGrace = new Unique("The Snowblind Grace", 4, temp, R.drawable.thesnowblindgrace);
+    Unique Wildwrap = new Unique("Wildwrap", 4, temp, R.drawable.wildwrap);
+    Unique YrielsFostering1 = new Unique("Yriel's Fostering (Rhoa)", 4, temp, R.drawable.yrielsfostering);
+    Unique YrielsFostering2 = new Unique("Yriel's Fostering (Snake)", 4, temp, R.drawable.yrielsfostering2);
+    Unique YrielsFostering3 = new Unique("Yriel's Fostering (Ursa)", 4, temp, R.drawable.yrielsfostering3);
+
+    Unique CloakofFlame = new Unique("Cloak of Flame", 4, temp, R.drawable.cloakofflame);
+    Unique CloakofTawmrIsley = new Unique("Cloak of Tawm'r Isley", 4, temp, R.drawable.cloakoftawmrisley);
+    Unique DiallasMalefaction = new Unique("Dialla's Malefaction", 4, temp, R.drawable.diallasmalefaction);
+    Unique DoedresSkin = new Unique("Doedre's Skin", 4, temp, R.drawable.doedresskin);
+    Unique FenumusShroud = new Unique("Fenumus' Shroud", 4, temp, R.drawable.fenumusshroud);
+    Unique InfernalMantle = new Unique("Infernal Mantle", 4, temp, R.drawable.infernalmantle);
+    Unique ShavronnesWrappings = new Unique("Shavronne's Wrappings", 4, temp, R.drawable.shavronneswrappings);
+    Unique SkinoftheLords = new Unique("Skin of the Lords", 4, temp, R.drawable.skinofthelords);
+    Unique SkinoftheLoyal = new Unique("Skin of the Lords", 4, temp, R.drawable.skinoftheloyal);
+    Unique SoulMantle = new Unique("Soul Mantle", 4, temp, R.drawable.soulmantle);
+    Unique TabulaRasa = new Unique("Tabula Rasa", 4, temp, R.drawable.tabularosa);
+    Unique TheBeastFurShawl = new Unique("The Beast Fur Shawl", 4, temp, R.drawable.thebeastofthefurshawl);
+    Unique TheComingCalamity = new Unique("The Coming Calamity", 4, temp, R.drawable.thecomingcalamity);
+    Unique TheCovenant = new Unique("The Covenant", 4, temp, R.drawable.thecovenant);
+    Unique ThousandRibbons = new Unique("Thousand Ribbons", 4, temp, R.drawable.thousandribbons);
+    Unique VisMortis = new Unique("Vis Mortis", 4, temp, R.drawable.vismortis);
+    Unique ZahndethusCassock = new Unique("Zahndethus' Cassock", 4, temp, R.drawable.zahndethuscassock);
+
+    Unique BellyoftheBeast = new Unique("Belly of the Beast", 4, temp, R.drawable.bellyofthebeast);
+    Unique CherrubimsMaleficence = new Unique("Cherrubim's Maleficence", 4, temp, R.drawable.cherrubimsmaleficence);
+    Unique DaressosDefiance = new Unique("Daresso's Defiance", 4, temp, R.drawable.daressosdefiance);
+    Unique FarrulsFur = new Unique("Farrul's Fur", 4, temp, R.drawable.farrulsfur);
+    Unique GruthkulsPelt = new Unique("Gruthkul's Pelt", 4, temp, R.drawable.gruthkulspelt);
+    Unique LightningCoil = new Unique("Lightning Coil", 4, temp, R.drawable.lightiningcoil);
+    Unique VipersScales = new Unique("Viper's Scales", 4, temp, R.drawable.vipersscales);
+
+    Unique AmbusCharge = new Unique("Ambu's Charge", 4, temp, R.drawable.ambuscharge);
+    Unique ChainsofCommand = new Unique("Chains of Command", 4, temp, R.drawable.chainsofcommand);
+    Unique CrystalVault = new Unique("Crystal Vault", 4, temp, R.drawable.crystalvault);
+    Unique GeofrisSanctuary = new Unique("Geofri's Sanctuary", 4, temp, R.drawable.geofrissanctuary);
+    Unique Icetomb = new Unique("Icetomb", 4, temp, R.drawable.icetomb);
+    Unique IncandescentHeart = new Unique("Incandescent Heart", 4, temp, R.drawable.incandescentheart);
+    Unique Kingsguard = new Unique("Kingsguard", 4, temp, R.drawable.kingsguard);
+    Unique LightbaneRaiment = new Unique("Lightbane Raiment", 4, temp, R.drawable.lightbaneraiment);
+    Unique Loreweave = new Unique("Loreweave", 4, temp, R.drawable.loreweave);
+    Unique VollsProtector = new Unique("Voll's Protector", 4, temp, R.drawable.vollsprotector);
+
+    Unique Bloodbond = new Unique("Bloodbond", 4, temp, R.drawable.bloodbond);
+    Unique CloakofDefiance = new Unique("Cloak of Defiance", 4, temp, R.drawable.cloakofdefiance);
+    Unique VictariosInfluence = new Unique("Victario's Influence", 4, temp, R.drawable.victariosinfluence);
+    Unique Dendrobate = new Unique("Dendrobate", 4, temp, R.drawable.dendrobate);
+    Unique CarcassJack = new Unique("Carcass Jack", 4, temp, R.drawable.carcasejack);
+    Unique SaqawalsNest = new Unique("Saqawal's Nest", 4, temp, R.drawable.saqawalsnest);
+    Unique InpulsasBrokenHeart = new Unique("Inpulsa's Broken Heart", 4, temp, R.drawable.inpulsasbrokenheart);
+    Unique Tinkerskin = new Unique("Tinkerskin", 4, temp, R.drawable.tinkerskin);
+    Unique ShroudoftheLightless = new Unique("Shroud of the Lightless", 4, temp, R.drawable.shroudofthelightless);
+    Unique TheRestlessWard = new Unique("The Restless Ward", 4, temp, R.drawable.therestlessward);
+
+    Unique Shadowstitch = new Unique("Shadowstitch", 4, temp, R.drawable.shadowstitch);
+    Unique AtzirisSplendourOne = new Unique("Atziri's Splendour (Armour and Energy Shield)", 4, temp, R.drawable.atzirissplendour);
+    Unique AtzirisSplendourTwo = new Unique("Atziri's Splendour (Armour and Life)", 4, temp, R.drawable.atzirissplendourtwo);
+    Unique AtzirisSplendourThree = new Unique("Atziri's Splendour (Armour, Energy Shield and Life)", 4, temp, R.drawable.atzirissplendourthree);
+    Unique AtzirisSplendourFour = new Unique("Atziri's Splendour (Armour, Evasion and Energy Shield)", 4, temp, R.drawable.atzirissplendourfour);
+    Unique AtzirisSplendourFive = new Unique("Atziri's Splendour (Armour, Evasion and Life)", 4, temp, R.drawable.atzirissplendourfive);
+    Unique AtzirisSplendourSix = new Unique("Atziri's Splendour (Energy Shield)", 4, temp, R.drawable.atzirissplendoursix);
+    Unique AtzirisSplendourSeven = new Unique("Atziri's Splendour (Evasion and Energy Shield)", 4, temp, R.drawable.atzirissplendourseven);
+    Unique AtzirisSplendourEight = new Unique("Atziri's Splendour (Evasion and Life)", 4, temp, R.drawable.atzirissplendoureight);
+    Unique AtzirisSplendourNine = new Unique("Atziri's Splendour (Evasion, Energy Shield and Life)", 4, temp, R.drawable.atzirissplendournine);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -661,7 +799,101 @@ private void setUp(){
     allUniques.add(TheFracturingSpinner);
     allUniques.add(TheSignalFire);
     allUniques.add(Voidfletcher);
-    tempList = allUniques;
+
+
+
+    allUniques.add(Bramblejack);
+    allUniques.add(CraiceannsCarapace);
+    allUniques.add(DeathsOath);
+    allUniques.add(GreedsEmbrace);
+    allUniques.add(IronHeart);
+    allUniques.add(KaomsHeart);
+    allUniques.add(LioneyesVision);
+    allUniques.add(SolarisLorica);
+    allUniques.add(TheBrassDome);
+    allUniques.add(TheIronFortress);
+    allUniques.add(WallofBrambles);
+    allUniques.add(Ashrend);
+    allUniques.add(Briskwrap);
+    allUniques.add(BronnsLithe);
+    allUniques.add(CosprisWill);
+    allUniques.add(FoxsFortune);
+    allUniques.add(Foxshade);
+    allUniques.add(HyrrisIre);
+    allUniques.add(Kintsugi);
+    allUniques.add(QueenoftheForest);
+    allUniques.add(ThePerfectForm);
+    allUniques.add(TheRatCage);
+    allUniques.add(TheSnowblindGrace);
+    allUniques.add(Wildwrap);
+    allUniques.add(YrielsFostering1);
+    allUniques.add(YrielsFostering2);
+    allUniques.add(YrielsFostering3);
+    allUniques.add(CloakofFlame);
+    allUniques.add(CloakofTawmrIsley);
+    allUniques.add(DiallasMalefaction);
+    allUniques.add(DoedresSkin);
+    allUniques.add(FenumusShroud);
+    allUniques.add(InfernalMantle);
+    allUniques.add(ShavronnesWrappings);
+    allUniques.add(SkinoftheLords);
+    allUniques.add(SkinoftheLoyal);
+    allUniques.add(SoulMantle);
+    allUniques.add(TabulaRasa);
+    allUniques.add(TheBeastFurShawl);
+    allUniques.add(TheComingCalamity);
+    allUniques.add(TheCovenant);
+    allUniques.add(ThousandRibbons);
+    allUniques.add(VisMortis);
+    allUniques.add(ZahndethusCassock);
+    allUniques.add(BellyoftheBeast);
+    allUniques.add(CherrubimsMaleficence);
+    allUniques.add(DaressosDefiance);
+    allUniques.add(FarrulsFur);
+    allUniques.add(GruthkulsPelt);
+    allUniques.add(LightningCoil);
+    allUniques.add(VipersScales);
+    allUniques.add(AmbusCharge);
+    allUniques.add(ChainsofCommand);
+    allUniques.add(CrystalVault);
+    allUniques.add(GeofrisSanctuary);
+    allUniques.add(Icetomb);
+    allUniques.add(IncandescentHeart);
+    allUniques.add(Kingsguard);
+    allUniques.add(LightbaneRaiment);
+    allUniques.add(Loreweave);
+    allUniques.add(VollsProtector);
+    allUniques.add(Bloodbond);
+    allUniques.add(CarcassJack);
+    allUniques.add(CloakofDefiance);
+    allUniques.add(Dendrobate);
+    allUniques.add(InpulsasBrokenHeart);
+    allUniques.add(SaqawalsNest);
+    allUniques.add(ShroudoftheLightless);
+    allUniques.add(TheRestlessWard);
+    allUniques.add(Tinkerskin);
+    allUniques.add(VictariosInfluence);
+    allUniques.add(AtzirisSplendourOne);
+    allUniques.add(AtzirisSplendourTwo);
+    allUniques.add(AtzirisSplendourThree);
+    allUniques.add(AtzirisSplendourFour);
+    allUniques.add(AtzirisSplendourFive);
+    allUniques.add(AtzirisSplendourSix);
+    allUniques.add(AtzirisSplendourSeven);
+    allUniques.add(AtzirisSplendourEight);
+    allUniques.add(AtzirisSplendourNine);
+    allUniques.add(Shadowstitch);
+
+
+
+
+
+
+
+
+
+    tempList = new ArrayList<>();
+    tempList = (ArrayList<Unique>) allUniques.clone();
     String[] names = new String[allUniques.size()];
     for(int i = 0; i< allUniques.size(); i++){
         names[i] = allUniques.get(i).getName();
