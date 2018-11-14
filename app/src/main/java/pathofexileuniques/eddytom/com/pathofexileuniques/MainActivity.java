@@ -544,6 +544,117 @@ private void setUp(){
     Unique AtzirisSplendourEight = new Unique("Atziri's Splendour (Evasion and Life)", 4, temp, R.drawable.atzirissplendoureight);
     Unique AtzirisSplendourNine = new Unique("Atziri's Splendour (Evasion, Energy Shield and Life)", 4, temp, R.drawable.atzirissplendournine);
 
+//Boots - code 5
+    Unique CraiceannsTracks = new Unique("Craiceann's Tracks", 5, temp, R.drawable.craiceannstracks);
+    Unique DoryanisDelusionOne = new Unique("Doryani's Delusion (Armour)", 5, temp, R.drawable.doryanisdelusion);
+    Unique KaomsRoots = new Unique("Kaom's Roots", 5, temp, R.drawable.kaomsroots);
+    Unique RedbladeTramplers = new Unique("Redblade Tramplers", 5, temp, R.drawable.redbladetramplers);
+    Unique Stormcharger = new Unique("Stormcharger", 5, temp, R.drawable.stormcharger);
+    Unique TheInfinitePursuit = new Unique("The Infinite Pursuit", 5, temp, R.drawable.theinfinitepursuit);
+    Unique TheRedTrail = new Unique("The Red Trail", 5, temp, R.drawable.theredtrails);
+    Unique Windscream = new Unique("Windscream", 5, temp, R.drawable.windscream);
+    Unique Windshriek = new Unique("Windshriek", 5, temp, R.drawable.windshriek);
+
+    Unique AbberathsHooves = new Unique("Abberath's Hooves", 5, temp, R.drawable.abberathshooves);
+    Unique AtzirisStep = new Unique("Atziri's Step", 5, temp, R.drawable.atzirisstep);
+    Unique Deerstalker = new Unique("Deerstalker", 5, temp, R.drawable.deerstalker);
+    Unique DoryanisDelusionTwo = new Unique("Doryani's Delusion (Evasion)", 5, temp, R.drawable.doryanisdelusiontwo);
+    Unique FarrulsChase = new Unique("Farrul's Chase", 5, temp, R.drawable.farrulschase);
+    Unique GarukhansFlight = new Unique("Garukhan's Flight", 5, temp, R.drawable.garukhansflight);
+    Unique Goldwyrm = new Unique("Goldwyrm", 5, temp, R.drawable.goldwyrm);
+    Unique SevenLeagueStep = new Unique("Seven-League Step", 5, temp, R.drawable.sevenleaguestep);
+    Unique SinTrek = new Unique("Sin Trek", 5, temp, R.drawable.sintrek);
+    Unique TheBloodDance = new Unique("The Blood Dance", 5, temp, R.drawable.theblooddance);
+    Unique ThreestepAssault = new Unique("Three-step Assault", 5, temp, R.drawable.threestepassault);
+    Unique VictariosFlight = new Unique("Victario's Flight", 5, temp, R.drawable.victariosflight);
+
+    Unique BonesofUllr = new Unique("Bones of Ullr", 5, temp, R.drawable.bonesofullr);
+    Unique DoryanisDelusionthree = new Unique("Doryani's Delusion (Energy Shield)", 5, temp, R.drawable.doryanisdelusionthree);
+    Unique Greedtrap = new Unique("Greedtrap", 5, temp, R.drawable.greedtrap);
+    Unique InyasEpiphany = new Unique("Inya's Epiphany", 5, temp, R.drawable.inyasepiphany);
+    Unique Rainbowstride = new Unique("Rainbowstride", 5, temp, R.drawable.rainbowstride);
+    Unique ShavronnesGambit = new Unique("Shavronne's Gambit", 5, temp, R.drawable.shavronnesgambit);
+    Unique ShavronnesPace = new Unique("Shavronne's Pace", 5, temp, R.drawable.shavronnespace);
+    Unique Skyforth = new Unique("Skyforth", 5, temp, R.drawable.skyforth);
+    Unique SteppanEard = new Unique("Steppan Eard", 5, temp, R.drawable.steppaneard);
+    Unique Wanderlust = new Unique("Wanderlust", 5, temp, R.drawable.wanderlust);
+    Unique Wondertrap = new Unique("Wondertrap", 5, temp, R.drawable.wondertrap);
+
+    Unique DarkrayVectors = new Unique("Darkray Vectors", 5, temp, R.drawable.darkrayvectors);
+    Unique Duskblight = new Unique("Duskblight", 5, temp, R.drawable.duskblight);
+    Unique Dusktoe = new Unique("Dusktoe", 5, temp, R.drawable.dusktoe);
+    Unique LioneyesPaws = new Unique("Lioneye's Paws", 5, temp, R.drawable.lioneyespaws);
+    Unique MutewindWhispersteps = new Unique("Mutewind Whispersteps", 5, temp, R.drawable.mutewindwhispersteps);
+    Unique SaqawalsTalons = new Unique("Saqawal's Talons", 5, temp, R.drawable.saqawalstalons);
+
+    Unique AlberonsWarpath = new Unique("Alberon's Warpath", 5, temp, R.drawable.alberonswarpath);
+    Unique DeathsDoor = new Unique("Death's Door", 5, temp, R.drawable.deathsdoor);
+    Unique GangsMomentum = new Unique("Gang's Momentum", 5, temp, R.drawable.gangsmomentum);
+    Unique RalakeshsImpatience = new Unique("Ralakesh's Impatience", 5, temp, R.drawable.ralakeshsimpatience);
+    Unique WakeofDestruction = new Unique("Wake of Destruction", 5, temp, R.drawable.wakeofdestruction);
+
+    Unique BrinerotWhalers = new Unique("Brinerot Whalers", 5, temp, R.drawable.brinerotwhalers);
+    Unique BubonicTrailOne = new Unique("Bubonic Trail (1 Abyssal Socket)", 5, temp, R.drawable.bubonictrialone);
+    Unique BubonicTrailTwo = new Unique("Bubonic Trail (2 Abyssal Sockets)", 5, temp, R.drawable.bubonictrailtwo);
+    Unique DanceoftheOffered = new Unique("Dance of the Offered", 5, temp, R.drawable.danceoftheoffered);
+    Unique FenumusSpinnerets = new Unique("Fenumus' Spinnerets", 5, temp, R.drawable.fenumusspinnerets);
+    Unique NomicsStorm = new Unique("Nomic's Storm", 5, temp, R.drawable.nomicsstorm);
+    Unique Omeyocan = new Unique("Omeyocan", 5, temp, R.drawable.omeyocan);
+    Unique Sundance = new Unique("Sundance", 5, temp, R.drawable.sundance);
+    Unique Sunspite = new Unique("Sunspite", 5, temp, R.drawable.sunspite);
+    Unique Voidwalker = new Unique("Voidwalker", 5, temp, R.drawable.voidwalker);
+
+    Unique DemigodsStride = new Unique("Demigod's Stride", 5, temp, R.drawable.demigodsstride);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -884,8 +995,60 @@ private void setUp(){
     allUniques.add(AtzirisSplendourNine);
     allUniques.add(Shadowstitch);
 
-
-
+    allUniques.add(CraiceannsTracks);
+    allUniques.add(DoryanisDelusionOne);
+    allUniques.add(KaomsRoots);
+    allUniques.add(RedbladeTramplers);
+    allUniques.add(Stormcharger);
+    allUniques.add(TheInfinitePursuit);
+    allUniques.add(TheRedTrail);
+    allUniques.add(Windscream);
+    allUniques.add(Windshriek);
+    allUniques.add(AbberathsHooves);
+    allUniques.add(AtzirisStep);
+    allUniques.add(Deerstalker);
+    allUniques.add(DoryanisDelusionTwo);
+    allUniques.add(FarrulsChase);
+    allUniques.add(GarukhansFlight);
+    allUniques.add(Goldwyrm);
+    allUniques.add(SevenLeagueStep);
+    allUniques.add(SinTrek);
+    allUniques.add(TheBloodDance);
+    allUniques.add(ThreestepAssault);
+    allUniques.add(VictariosFlight);
+    allUniques.add(BonesofUllr);
+    allUniques.add(DoryanisDelusionthree);
+    allUniques.add(Greedtrap);
+    allUniques.add(InyasEpiphany);
+    allUniques.add(Rainbowstride);
+    allUniques.add(ShavronnesGambit);
+    allUniques.add(ShavronnesPace);
+    allUniques.add(Skyforth);
+    allUniques.add(SteppanEard);
+    allUniques.add(Wanderlust);
+    allUniques.add(Wondertrap);
+    allUniques.add(DarkrayVectors);
+    allUniques.add(Duskblight);
+    allUniques.add(Dusktoe);
+    allUniques.add(LioneyesPaws);
+    allUniques.add(MutewindWhispersteps);
+    allUniques.add(SaqawalsTalons);
+    allUniques.add(AlberonsWarpath);
+    allUniques.add(DeathsDoor);
+    allUniques.add(GangsMomentum);
+    allUniques.add(RalakeshsImpatience);
+    allUniques.add(WakeofDestruction);
+    allUniques.add(BrinerotWhalers);
+    allUniques.add(BubonicTrailOne);
+    allUniques.add(BubonicTrailTwo);
+    allUniques.add(DanceoftheOffered);
+    allUniques.add(FenumusSpinnerets);
+    allUniques.add(NomicsStorm);
+    allUniques.add(Omeyocan);
+    allUniques.add(Sundance);
+    allUniques.add(Sunspite);
+    allUniques.add(Voidwalker);
+    allUniques.add(DemigodsStride);
 
 
 
