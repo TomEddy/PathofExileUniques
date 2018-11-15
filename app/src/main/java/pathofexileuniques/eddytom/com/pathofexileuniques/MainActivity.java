@@ -606,6 +606,119 @@ private void setUp(){
 
     Unique DemigodsStride = new Unique("Demigod's Stride", 5, temp, R.drawable.demigodsstride);
 
+    //Gloves - code 6
+    Unique AtzirisAcuity = new Unique("Atziri's Acuity", 6, temp, R.drawable.atzirisacuity);
+    Unique CraiceannsPincers = new Unique("Craiceann's Pincers", 6, temp, R.drawable.craiceannspincers);
+    Unique DoryanisFist = new Unique("Doryani's Fist", 6, temp, R.drawable.doryanisfist);
+    Unique EmpiresGrasp = new Unique("Empire's Grasp", 6, temp, R.drawable.empiresgrasp);
+    Unique Giantsbane = new Unique("Giantsbane", 6, temp, R.drawable.giantsbane);
+    Unique LochtonialCaress = new Unique("Lochtonial Caress", 6, temp, R.drawable.lochtonialcaress);
+    Unique MeginordsVise = new Unique("Meginord's Vise", 6, temp, R.drawable.meginordsvise);
+    Unique VerusosBatteringRams = new Unique("Veruso's Battering Rams", 6, temp, R.drawable.verusosbatteringrams);
+    Unique WindsofChange = new Unique("Winds of Change", 6, temp, R.drawable.windsofchange);
+
+    Unique Hrimburn = new Unique("Hrimburn", 6, temp, R.drawable.hrimburn);
+    Unique Hrimsorrow = new Unique("Hrimsorrow", 6, temp, R.drawable.hrimsorrow);
+    Unique MaligarosVirtuosity = new Unique("Maligaro's Virtuosity", 6, temp, R.drawable.maligarosvirtuosity);
+    Unique Oskarm = new Unique("Oskarm", 6, temp, R.drawable.oskarm);
+
+    Unique Allelopathy = new Unique("Allelopathy", 6, temp, R.drawable.allelopathy);
+    Unique AsenathsGentleTouch = new Unique("Asenath's Gentle Touch", 6, temp, R.drawable.asenathsgentletouch);
+    Unique DemonStitcher = new Unique("Demon Stitcher", 6, temp, R.drawable.demonstitcher);
+    Unique DoedresMalevolence = new Unique("Doedre's Malevolence", 6, temp, R.drawable.doedresmalevolence);
+    Unique DoedresTenure = new Unique("Doedre's Tenure", 6, temp, R.drawable.doedrestenure);
+    Unique GripoftheCouncil = new Unique("Grip of the Council", 6, temp, R.drawable.gripofthecouncil);
+    Unique KalisasGrace = new Unique("Kalisa's Grace", 6, temp, R.drawable.kalisasgrace);
+    Unique SadimasTouch = new Unique("Sadima's Touch", 6, temp, R.drawable.sadimastouch);
+    Unique Voidbringer = new Unique("Voidbringer", 6, temp, R.drawable.voidbringer);
+
+    Unique Aurseize = new Unique("Aurseize", 6, temp, R.drawable.aueseize);
+    Unique FarrulsPounce = new Unique("Farrul's Pounce", 6, temp, R.drawable.farrulspounce);
+    Unique FleshandSpirit = new Unique("Flesh and Spirit", 6, temp, R.drawable.fleshandspirit);
+    Unique Haemophilia = new Unique("Haemophilia", 6, temp, R.drawable.haemophilia);
+    Unique Slitherpinch = new Unique("Slitherpinch", 6, temp, R.drawable.slitherpinch);
+    Unique Surgebinders = new Unique("Surgebinders", 6, temp, R.drawable.surgebinders);
+    Unique TombfistOne = new Unique("Tombfist (1 Abyssal Socket)", 6, temp, R.drawable.tombfistone);
+    Unique TombfistTwo = new Unique("Tombfist (2 Abyssal Socket)", 6, temp, R.drawable.tombfisttwo);
+    Unique VaalCaress = new Unique("Vaal Caress", 6, temp, R.drawable.vaalcaress);
+    Unique Wyrmsign = new Unique("Wyrmsign", 6, temp, R.drawable.wrymsign);
+
+    Unique CommandofthePit = new Unique("Command of the Pit (1 Abyssal Socket)", 6, temp, R.drawable.commandofthepit);
+    Unique CommandofthePitTwo = new Unique("Command of the Pit (2 Abyssal Socket)", 6, temp, R.drawable.commandofthepittwo);
+    Unique NullandVoid = new Unique("Null and Void", 6, temp, R.drawable.nullandvoid);
+    Unique Repentance = new Unique("Repentance", 6, temp, R.drawable.repentance);
+    Unique SaqawalsWinds = new Unique("Saqawal's Winds", 6, temp, R.drawable.saqawalswinds);
+    Unique ShacklesoftheWretched = new Unique("Shackles of the Wretched", 6, temp, R.drawable.shackelsofthewretched);
+    Unique ShapersTouch = new Unique("Shaper's Touch", 6, temp, R.drawable.shaperstouch);
+    Unique Southbound = new Unique("Southbound", 6, temp, R.drawable.southbound);
+    Unique VolkuursGuidanceOne = new Unique("Volkuur's Guidance (Lightning)", 6, temp, R.drawable.volkuursguidance);
+    Unique VolkuursGuidanceTwo = new Unique("Volkuur's Guidance (Cold)", 6, temp, R.drawable.volkuursguidancetwo);
+    Unique VolkuursGuidanceThree = new Unique("Volkuur's Guidance (Fire)", 6, temp, R.drawable.volkuursguidancethree);
+
+    Unique ArchitectsHand = new Unique("Architect's Hand", 6, temp, R.drawable.architectshand);
+    Unique BlasphemersGrasp = new Unique("Blasphemer's Grasp", 6, temp, R.drawable.blasphemersgrasp);
+    Unique Facebreaker = new Unique("Facebreaker", 6, temp, R.drawable.facebreaker);
+    Unique FenumusWeave = new Unique("Fenumus' Weave", 6, temp, R.drawable.fenumusweave);
+    Unique MalachaisMark = new Unique("Malachai's Mark", 6, temp, R.drawable.malachaismark);
+    Unique OndarsClasp = new Unique("Ondar's Clasp", 6, temp, R.drawable.ondarsclasp);
+    Unique ShadowsandDust = new Unique("Shadows and Dust", 6, temp, R.drawable.shadowsanddust);
+    Unique SlavedriversHand = new Unique("Slavedriver's Hand", 6, temp, R.drawable.slavedrivershand);
+    Unique Snakebite = new Unique("Snakebite", 6, temp, R.drawable.snakebite);
+    Unique TheEmbalmer = new Unique("The Embalmer", 6, temp, R.drawable.theembalmer);
+    Unique Thunderfist = new Unique("Thunderfist", 6, temp, R.drawable.thunderfist);
+
+    Unique DemigodsTouch = new Unique("Demigod's Touch", 6, temp, R.drawable.demigodstouch);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1049,6 +1162,64 @@ private void setUp(){
     allUniques.add(Sunspite);
     allUniques.add(Voidwalker);
     allUniques.add(DemigodsStride);
+
+    allUniques.add(AtzirisAcuity);
+    allUniques.add(CraiceannsPincers);
+    allUniques.add(DoryanisFist);
+    allUniques.add(EmpiresGrasp);
+    allUniques.add(Giantsbane);
+    allUniques.add(LochtonialCaress);
+    allUniques.add(MeginordsVise);
+    allUniques.add(VerusosBatteringRams);
+    allUniques.add(WindsofChange);
+    allUniques.add(Hrimburn);
+    allUniques.add(Hrimsorrow);
+    allUniques.add(MaligarosVirtuosity);
+    allUniques.add(Oskarm);
+    allUniques.add(Allelopathy);
+    allUniques.add(AsenathsGentleTouch);
+    allUniques.add(DemonStitcher);
+    allUniques.add(DoedresMalevolence);
+    allUniques.add(DoedresTenure);
+    allUniques.add(GripoftheCouncil);
+    allUniques.add(KalisasGrace);
+    allUniques.add(SadimasTouch);
+    allUniques.add(Voidbringer);
+    allUniques.add(Aurseize);
+    allUniques.add(FarrulsPounce);
+    allUniques.add(FleshandSpirit);
+    allUniques.add(Haemophilia);
+    allUniques.add(Slitherpinch);
+    allUniques.add(Surgebinders);
+    allUniques.add(TombfistOne);
+    allUniques.add(TombfistTwo);
+    allUniques.add(VaalCaress);
+    allUniques.add(Wyrmsign);
+    allUniques.add(CommandofthePit);
+    allUniques.add(CommandofthePitTwo);
+    allUniques.add(NullandVoid);
+    allUniques.add(Repentance);
+    allUniques.add(SaqawalsWinds);
+    allUniques.add(ShacklesoftheWretched);
+    allUniques.add(ShapersTouch);
+    allUniques.add(Southbound);
+    allUniques.add(VolkuursGuidanceOne);
+    allUniques.add(VolkuursGuidanceTwo);
+    allUniques.add(VolkuursGuidanceThree);
+    allUniques.add(ArchitectsHand);
+    allUniques.add(BlasphemersGrasp);
+    allUniques.add(Facebreaker);
+    allUniques.add(FenumusWeave);
+    allUniques.add(MalachaisMark);
+    allUniques.add(OndarsClasp);
+    allUniques.add(ShadowsandDust);
+    allUniques.add(SlavedriversHand);
+    allUniques.add(Snakebite);
+    allUniques.add(TheEmbalmer);
+    allUniques.add(Thunderfist);
+    allUniques.add(DemigodsTouch);
+
+
 
 
 
