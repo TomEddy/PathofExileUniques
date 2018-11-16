@@ -669,6 +669,150 @@ private void setUp(){
 
     Unique DemigodsTouch = new Unique("Demigod's Touch", 6, temp, R.drawable.demigodstouch);
 
+//Helmets - code 7
+    Unique Abyssus = new Unique("Abyssus", 7, temp, R.drawable.abyssus);
+    Unique EzomyteHold = new Unique("Ezomyte Hold", 7, temp, R.drawable.ezomyte);
+    Unique EzomytePeak = new Unique("Ezomyte Peak", 7, temp, R.drawable.ezomytepeak);
+    Unique HrimnorsResolve = new Unique("Hrimnor's Resolve", 7, temp, R.drawable.hrimnorsresolve);
+    Unique TheBaron = new Unique("The Baron", 7, temp, R.drawable.thebaron);
+    Unique TheFormlessFlame = new Unique("The Formless Flame", 7, temp, R.drawable.theformlessflame);
+    Unique TheFormlessInferno = new Unique("The Formless Inferno", 7, temp, R.drawable.theformlessinferno);
+
+    Unique AlphasHowl = new Unique("Alpha's Howl", 7, temp, R.drawable.alphashowl);
+    Unique FairgravesTricorne = new Unique("Fairgraves' Tricorne", 7, temp, R.drawable.fairgravestricorne);
+    Unique Frostferno = new Unique("Frostferno", 7, temp, R.drawable.frostferno);
+    Unique Goldrim = new Unique("Goldrim", 7, temp, R.drawable.goldrim);
+    Unique Heatshiver = new Unique("Heatshiver", 7, temp, R.drawable.heatshiver);
+    Unique Obscurantis = new Unique("Obscurantis", 7, temp, R.drawable.obscurantis);
+    Unique RatsNest = new Unique("Rat's Nest", 7, temp, R.drawable.ratsnest);
+    Unique SaqawalsFlock = new Unique("Saqawal's Flock", 7, temp, R.drawable.saqawalsflock);
+    Unique StarkonjasHead = new Unique("Starkonja's Head", 7, temp, R.drawable.starkonjashead);
+
+    Unique AsenathsChant = new Unique("Asenath's Chant", 7, temp, R.drawable.asenathschant);
+    Unique AsenathsMark = new Unique("Asenath's Mark", 7, temp, R.drawable.asenathsmark);
+    Unique ChitusApex = new Unique("Chitus' Apex", 7, temp, R.drawable.chitusapex);
+    Unique CrownofEyes = new Unique("Crown of Eyes", 7, temp, R.drawable.crownofeyes);
+    Unique CrownofThorns = new Unique("Crown of Thorns", 7, temp, R.drawable.crownofthornes);
+    Unique DoedresScorn = new Unique("Doedre's Scorn", 7, temp, R.drawable.doedresscorn);
+    Unique EbersUnification = new Unique("Eber's Unification", 7, temp, R.drawable.ebersunification);
+    Unique FenumusToxins = new Unique("Fenumus' Toxins", 7, temp, R.drawable.fenumustoxins);
+    Unique HaleNegatorOne = new Unique("Hale Negator (1 Abyssal Socket)", 7, temp, R.drawable.halenegator);
+    Unique HaleNegatorTwo = new Unique("Hale Negator (2 Abyssal Socket)", 7, temp, R.drawable.halenegatortwo);
+    Unique Indigon = new Unique("Indigon", 7, temp, R.drawable.indigon);
+    Unique MarkoftheRedCovenant = new Unique("Mark of the Red Covenant", 7, temp, R.drawable.markoftheredcovenant);
+    Unique MartyrsCrown = new Unique("Martyr's Crown", 7, temp, R.drawable.martyrscrown);
+    Unique RimeGaze = new Unique("Rime Gaze", 7, temp, R.drawable.rimegaze);
+    Unique ScoldsBridle = new Unique("Scold's Bridle", 7, temp, R.drawable.scoldsbridle);
+    Unique Wraithlord = new Unique("Wraithlord", 7, temp, R.drawable.wraithlord);
+    Unique YlfebansTrickery = new Unique("Ylfeban's Trickery", 7, temp, R.drawable.ylfebanstrickery);
+
+    Unique BlackSunCrest = new Unique("Black Sun Crest", 7, temp, R.drawable.blacksuncrest);
+    Unique Deidbell = new Unique("Deidbell", 7, temp, R.drawable.deidbell);
+    Unique Deidbellow = new Unique("Deidbellow", 7, temp, R.drawable.deidbellow);
+    Unique DevotosDevotion = new Unique("Devoto's Devotion", 7, temp, R.drawable.devotosdevotion);
+    Unique Skullhead = new Unique("Skullhead", 7, temp, R.drawable.skullhead);
+    Unique TheBringerofRain = new Unique("The Bringer of Rain", 7, temp, R.drawable.thebringerofrain);
+    Unique ThePeregrine = new Unique("The Peregrine", 7, temp, R.drawable.theperegrine);
+
+    Unique AhnsContempt = new Unique("Ahn's Contempt", 7, temp, R.drawable.ahnscontempt);
+    Unique CraiceannsChitin = new Unique("Craiceann's Chitin", 7, temp, R.drawable.craiceannschitin);
+    Unique CrownoftheTyrant = new Unique("Crown of the Tyrant", 7, temp, R.drawable.crownofthetyrant);
+    Unique GeofrisCrest = new Unique("Geofri's Crest", 7, temp, R.drawable.geofriscrest);
+    Unique GeofrisLegacy = new Unique("Geofri's Legacy", 7, temp, R.drawable.geofrislegacy);
+    Unique Honourhome = new Unique("Honourhome", 7, temp, R.drawable.honourhome);
+    Unique KitavasThirst = new Unique("Kitava's Thirst", 7, temp, R.drawable.kitavasthirst);
+    Unique LightpoacherOne = new Unique("Lightpoacher (1 Abyssal Socket)", 7, temp, R.drawable.lightpoacher);
+    Unique LightpoacherTwo = new Unique("Lightpoacher (2 Abyssal Socket)", 7, temp, R.drawable.lightpoachertwo);
+    Unique MalachaisVision = new Unique("Malachai's Vision", 7, temp, R.drawable.malachaisvision);
+    Unique MaskoftheSpiritDrinker = new Unique("Mask of the Spirit Drinker", 7, temp, R.drawable.maskofthespiritdrinker);
+    Unique MaskoftheStitchedDemon = new Unique("Mask of the Stitched Demon", 7, temp, R.drawable.maskofthestitcheddemon);
+    Unique MemoryVault = new Unique("Memory Vault", 7, temp, R.drawable.memoryvault);
+    Unique Mindspiral = new Unique("Mindspiral", 7, temp, R.drawable.mindspiral);
+    Unique SpeakersWreath = new Unique("Speaker's Wreath", 7, temp, R.drawable.speakerswreath);
+    Unique TheBrineCrown = new Unique("The Brine Crown", 7, temp, R.drawable.thebrinecrown);
+    Unique TheBrokenCrown = new Unique("The Broken Crown", 7, temp, R.drawable.thebrokencrown);
+    Unique VeiloftheNight = new Unique("Veil of the Night", 7, temp, R.drawable.veilofthenight);
+    Unique VollsVision = new Unique("Voll's Vision", 7, temp, R.drawable.vollsvision);
+
+    Unique CrownofthePaleKing = new Unique("Crown of the Pale King", 7, temp, R.drawable.crownofthepaleking);
+    Unique CurtainCall = new Unique("Curtain Call", 7, temp, R.drawable.curtaincall);
+    Unique FarrulsBite = new Unique("Farrul's Bite", 7, temp, R.drawable.farrulsbite);
+    Unique GorgonsGaze = new Unique("Gorgon's Gaze", 7, temp, R.drawable.gorgonsgaze);
+    Unique HereticsVeil = new Unique("Heretic's Veil", 7, temp, R.drawable.hereticsveil);
+    Unique LeerCast = new Unique("Leer Cast", 7, temp, R.drawable.leercast);
+    Unique MalachaisAwakening = new Unique("Malachai's Awakening", 7, temp, R.drawable.malachaisawakening);
+    Unique MalachaisSimula = new Unique("Malachai's Simula", 7, temp, R.drawable.malachaissimula);
+    Unique MindoftheCouncil = new Unique("Mind of the Council", 7, temp, R.drawable.mindofthecouncil);
+    Unique TheGull = new Unique("The Gull", 7, temp, R.drawable.thegull);
+    Unique TheTempestsBinding = new Unique("The Tempest's Binding", 7, temp, R.drawable.thetempestsbinding);
+    Unique TheThreeDragons = new Unique("The Three Dragons", 7, temp, R.drawable.thethreedragons);
+    Unique TheVertex = new Unique("The Vertex", 7, temp, R.drawable.thevertex);
+
+    Unique DemigodsTriumph = new Unique("Demigod's Triumph", 7, temp, R.drawable.demigodstriumph);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1218,6 +1362,88 @@ private void setUp(){
     allUniques.add(TheEmbalmer);
     allUniques.add(Thunderfist);
     allUniques.add(DemigodsTouch);
+
+    allUniques.add(Abyssus);
+    allUniques.add(EzomyteHold);
+    allUniques.add(EzomytePeak);
+    allUniques.add(HrimnorsResolve);
+    allUniques.add(TheBaron);
+    allUniques.add(TheFormlessFlame);
+    allUniques.add(TheFormlessInferno);
+    allUniques.add(AlphasHowl);
+    allUniques.add(FairgravesTricorne);
+    allUniques.add(Frostferno);
+    allUniques.add(Goldrim);
+    allUniques.add(Heatshiver);
+    allUniques.add(Obscurantis);
+    allUniques.add(RatsNest);
+    allUniques.add(SaqawalsFlock);
+    allUniques.add(StarkonjasHead);
+    allUniques.add(AsenathsChant);
+    allUniques.add(AsenathsMark);
+    allUniques.add(ChitusApex);
+    allUniques.add(CrownofEyes);
+    allUniques.add(CrownofThorns);
+    allUniques.add(DoedresScorn);
+    allUniques.add(EbersUnification);
+    allUniques.add(FenumusToxins);
+    allUniques.add(HaleNegatorOne);
+    allUniques.add(HaleNegatorTwo);
+    allUniques.add(Indigon);
+    allUniques.add(MarkoftheRedCovenant);
+    allUniques.add(MartyrsCrown);
+    allUniques.add(RimeGaze);
+    allUniques.add(ScoldsBridle);
+    allUniques.add(Wraithlord);
+    allUniques.add(YlfebansTrickery);
+    allUniques.add(BlackSunCrest);
+    allUniques.add(Deidbell);
+    allUniques.add(Deidbellow);
+    allUniques.add(DevotosDevotion);
+    allUniques.add(Skullhead);
+    allUniques.add(TheBringerofRain);
+    allUniques.add(ThePeregrine);
+    allUniques.add(AhnsContempt);
+    allUniques.add(CraiceannsChitin);
+    allUniques.add(CrownoftheTyrant);
+    allUniques.add(GeofrisCrest);
+    allUniques.add(GeofrisLegacy);
+    allUniques.add(Honourhome);
+    allUniques.add(KitavasThirst);
+    allUniques.add(LightpoacherOne);
+    allUniques.add(LightpoacherTwo);
+    allUniques.add(MalachaisVision);
+    allUniques.add(MaskoftheSpiritDrinker);
+    allUniques.add(MaskoftheStitchedDemon);
+    allUniques.add(MemoryVault);
+    allUniques.add(Mindspiral);
+    allUniques.add(SpeakersWreath);
+    allUniques.add(TheBrineCrown);
+    allUniques.add(TheBrokenCrown);
+    allUniques.add(VeiloftheNight);
+    allUniques.add(VollsVision);
+    allUniques.add(CrownofthePaleKing);
+    allUniques.add(CurtainCall);
+    allUniques.add(FarrulsBite);
+    allUniques.add(GorgonsGaze);
+    allUniques.add(HereticsVeil);
+    allUniques.add(LeerCast);
+    allUniques.add(MalachaisAwakening);
+    allUniques.add(MalachaisSimula);
+    allUniques.add(MindoftheCouncil);
+    allUniques.add(TheGull);
+    allUniques.add(TheTempestsBinding);
+    allUniques.add(TheThreeDragons);
+    allUniques.add(TheVertex);
+    allUniques.add(DemigodsTriumph);
+
+
+
+
+
+
+
+
 
 
 
