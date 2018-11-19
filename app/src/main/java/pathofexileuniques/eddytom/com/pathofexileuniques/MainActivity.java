@@ -750,6 +750,114 @@ private void setUp(){
 
     Unique DemigodsTriumph = new Unique("Demigod's Triumph", 7, temp, R.drawable.demigodstriumph);
 
+    //Shields - code 8
+    Unique AhnsHeritage = new Unique("Ahn's Heritage", 8, temp, R.drawable.ahnsheritage);
+    Unique ChernobogsPillar = new Unique("Chernobog's Pillar", 8, temp, R.drawable.chernobogspillar);
+    Unique LioneyesRemorse = new Unique("Lioneye's Remorse", 8, temp, R.drawable.lioneyesremorse);
+    Unique Lycosidae = new Unique("Lycosidae", 8, temp, R.drawable.lycosidae);
+    Unique MagnaEclipsis = new Unique("Magna Eclipsis", 8, temp, R.drawable.magnaeclipsis);
+    Unique RedbladeBanner = new Unique("Redblade Banner", 8, temp, R.drawable.redbladebanner);
+    Unique TheAnticipation = new Unique("The Anticipation", 8, temp, R.drawable.theanticipation);
+    Unique TheSurrender = new Unique("The Surrender", 8, temp, R.drawable.thesurrenderer);
+    Unique TituciusSpan = new Unique("Titucius' Span", 8, temp, R.drawable.tituciusspan);
+    Unique TrolltimberSpire = new Unique("Trolltimber Spire", 8, temp, R.drawable.trolltimberspire);
+    Unique TukohamasFortress = new Unique("Tukohama's Fortress", 8, temp, R.drawable.tukohamasfortress);
+
+    Unique AtzirisMirror = new Unique("Atziri's Mirror", 8, temp, R.drawable.atzirismirror);
+    Unique AtzirisReflection = new Unique("Atziri's Reflection", 8, temp, R.drawable.atzirisreflection);
+    Unique ChaliceofHorrors = new Unique("Chalice of Horrors", 8, temp, R.drawable.chaliceofhorrors);
+    Unique CrestofPerandus = new Unique("Crest of Perandus", 8, temp, R.drawable.crestoftheperandus);
+    Unique GreatOldOnesWard = new Unique("Great Old One's Ward", 8, temp, R.drawable.greatoldonesward);
+    Unique Kaltenhalt = new Unique("Kaltenhalt", 8, temp, R.drawable.kaltenhalt);
+    Unique Kaltensoul = new Unique("Kaltensoul", 8, temp, R.drawable.kaltensoul);
+    Unique MutewindPennant = new Unique("Mutewind Pennant", 8, temp, R.drawable.mutewindpennant);
+    Unique ThirstforHorrors = new Unique("Thirst for Horrors", 8, temp, R.drawable.thirstforhorrors);
+    Unique ThousandTeethTemu = new Unique("Thousand Teeth Temu", 8, temp, R.drawable.thousandteethtemu);
+
+    Unique ApepsSlumber = new Unique("Apep's Slumber", 8, temp, R.drawable.apepsslumber);
+    Unique ApepsSupremacy = new Unique("Apep's Supremacy", 8, temp, R.drawable.apepssupremacy);
+    Unique BrinerotFlag = new Unique("Brinerot Flag", 8, temp, R.drawable.brinerotflag);
+    Unique EshsMirror = new Unique("Esh's Mirror", 8, temp, R.drawable.eshsmirror);
+    Unique EshsVisage = new Unique("Esh's Visage", 8, temp, R.drawable.eshsvisage);
+    Unique KongmingsStratagem = new Unique("Kongming's Stratagem", 8, temp, R.drawable.kongmingsstratgem);
+    Unique LightofLunaris = new Unique("Light of Lunaris", 8, temp, R.drawable.lightoflunaris);
+    Unique MalachaisLoop = new Unique("Malachai's Loop", 8, temp, R.drawable.malachaisloop);
+    Unique MatuaTupuna = new Unique("Matua Tupuna", 8, temp, R.drawable.matuatupuna);
+    Unique RathpithGlobe = new Unique("Rathpith Globe", 8, temp, R.drawable.rathpithglobe);
+    Unique SentarisAnswer = new Unique("Sentari's Answer", 8, temp, R.drawable.sentarisanswer);
+    Unique TheEternalApple = new Unique("The Eternal Apple", 8, temp, R.drawable.theeternalapple);
+
+    Unique DaressosCourage = new Unique("Daresso's Courage", 8, temp, R.drawable.daressoscourage);
+    Unique TheDeepOnesHide = new Unique("The Deep One's Hide", 8, temp, R.drawable.thedeeponeshide);
+    Unique VixLunaris = new Unique("Vix Lunaris", 8, temp, R.drawable.vixlunaris);
+    Unique WheeloftheStormsail = new Unique("Wheel of the Stormsail", 8, temp, R.drawable.wheelofthestormsail);
+
+    Unique AegisAurora = new Unique("Aegis Aurora", 8, temp, R.drawable.aegisaurora);
+    Unique BrokenFaith = new Unique("Broken Faith", 8, temp, R.drawable.brokenfaith);
+    Unique InvictusSolaris = new Unique("Invictus Solaris", 8, temp, R.drawable.invictussolaris);
+    Unique PrismGuardian = new Unique("Prism Guardian", 8, temp, R.drawable.prismgaurdian);
+    Unique RiseofthePhoenix = new Unique("Rise of the Phoenix", 8, temp, R.drawable.riseofthephoenix);
+    Unique SaffellsFrame = new Unique("Saffell's Frame", 8, temp, R.drawable.saffellsframe);
+    Unique Springleaf = new Unique("Springleaf", 8, temp, R.drawable.springleaf);
+    Unique TheOak = new Unique("The Oak", 8, temp, R.drawable.theoak);
+    Unique TheUnshatteredWill = new Unique("The Unshattered Will", 8, temp, R.drawable.theunshatteredwill);
+    Unique UnyieldingFlame = new Unique("Unyielding Flame", 8, temp, R.drawable.unyieldingflame);
+    Unique VictariosCharity = new Unique("Victario's Charity", 8, temp, R.drawable.victarioscharity);
+
+    Unique Glitterdisc = new Unique("Glitterdisc", 8, temp, R.drawable.glitterdisk);
+    Unique JawsofAgony = new Unique("Jaws of Agony", 8, temp, R.drawable.jawsofagony);
+    Unique LepersAlms = new Unique("Leper's Alms", 8, temp, R.drawable.lepersalms);
+    Unique MaligarosLens = new Unique("Maligaro's Lens", 8, temp, R.drawable.maligaroslens);
+    Unique ZeelsAmplifier = new Unique("Zeel's Amplifier", 8, temp, R.drawable.zeelsamplifier);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1437,6 +1545,59 @@ private void setUp(){
     allUniques.add(TheVertex);
     allUniques.add(DemigodsTriumph);
 
+    allUniques.add(AhnsHeritage);
+    allUniques.add(ChernobogsPillar);
+    allUniques.add(LioneyesRemorse);
+    allUniques.add(Lycosidae);
+    allUniques.add(MagnaEclipsis);
+    allUniques.add(RedbladeBanner);
+    allUniques.add(TheAnticipation);
+    allUniques.add(TheSurrender);
+    allUniques.add(TituciusSpan);
+    allUniques.add(TrolltimberSpire);
+    allUniques.add(TukohamasFortress);
+    allUniques.add(AtzirisMirror);
+    allUniques.add(AtzirisReflection);
+    allUniques.add(ChaliceofHorrors);
+    allUniques.add(CrestofPerandus);
+    allUniques.add(GreatOldOnesWard);
+    allUniques.add(Kaltenhalt);
+    allUniques.add(Kaltensoul);
+    allUniques.add(MutewindPennant);
+    allUniques.add(ThirstforHorrors);
+    allUniques.add(ThousandTeethTemu);
+    allUniques.add(ApepsSlumber);
+    allUniques.add(ApepsSupremacy);
+    allUniques.add(BrinerotFlag);
+    allUniques.add(EshsMirror);
+    allUniques.add(EshsVisage);
+    allUniques.add(KongmingsStratagem);
+    allUniques.add(LightofLunaris);
+    allUniques.add(MalachaisLoop);
+    allUniques.add(MatuaTupuna);
+    allUniques.add(RathpithGlobe);
+    allUniques.add(SentarisAnswer);
+    allUniques.add(TheEternalApple);
+    allUniques.add(DaressosCourage);
+    allUniques.add(TheDeepOnesHide);
+    allUniques.add(VixLunaris);
+    allUniques.add(WheeloftheStormsail);
+    allUniques.add(AegisAurora);
+    allUniques.add(BrokenFaith);
+    allUniques.add(InvictusSolaris);
+    allUniques.add(PrismGuardian);
+    allUniques.add(RiseofthePhoenix);
+    allUniques.add(SaffellsFrame);
+    allUniques.add(Springleaf);
+    allUniques.add(TheOak);
+    allUniques.add(TheUnshatteredWill);
+    allUniques.add(UnyieldingFlame);
+    allUniques.add(VictariosCharity);
+    allUniques.add(Glitterdisc);
+    allUniques.add(JawsofAgony);
+    allUniques.add(LepersAlms);
+    allUniques.add(MaligarosLens);
+    allUniques.add(ZeelsAmplifier);
 
 
 
