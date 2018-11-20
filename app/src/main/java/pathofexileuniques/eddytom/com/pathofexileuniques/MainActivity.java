@@ -810,6 +810,62 @@ private void setUp(){
     Unique MaligarosLens = new Unique("Maligaro's Lens", 8, temp, R.drawable.maligaroslens);
     Unique ZeelsAmplifier = new Unique("Zeel's Amplifier", 8, temp, R.drawable.zeelsamplifier);
 
+//Axes - code 9
+    Unique Dreadarc = new Unique("Dreadarc", 9, temp, R.drawable.dreadarc);
+    Unique Dreadsurge = new Unique("Dreadsurge", 9, temp, R.drawable.dreadsurge);
+    Unique Dyadus = new Unique("Dyadus", 9, temp, R.drawable.dyadus);
+    Unique JacktheAxe = new Unique("Jack, the Axe", 9, temp, R.drawable.jacktheaxe);
+    Unique MoonbendersWing = new Unique("Moonbender's Wing", 9, temp, R.drawable.moonbenderswing);
+    Unique RelentlessFury = new Unique("Relentless Fury", 9, temp, R.drawable.relentlessfurry);
+    Unique RigwaldsSavagery = new Unique("Rigwald's Savagery", 9, temp, R.drawable.rigwaldssavagery);
+    Unique SoulTaker = new Unique("Soul Taker", 9, temp, R.drawable.soultaker);
+    Unique TheGryphon = new Unique("The Gryphon", 9, temp, R.drawable.thegryphon);
+    Unique TheScreamingEagle = new Unique("The Screaming Eagle", 9, temp, R.drawable.thescreamingeagle);
+
+    Unique AtzirisDisfavour = new Unique("Atziri's Disfavour", 9, temp, R.drawable.atzirisdisfavour);
+    Unique DebeonsDirge = new Unique("Debeon's Dirge", 9, temp, R.drawable.debeonsdirge);
+    Unique HezmanasBloodlust = new Unique("Hezmana's Bloodlust", 9, temp, R.drawable.hezmanasbloodlust);
+    Unique KaomsPrimacy = new Unique("Kaom's Primacy", 9, temp, R.drawable.kaomsprimacy);
+    Unique Kingmaker = new Unique("Kingmaker", 9, temp, R.drawable.kingmaker);
+    Unique KitavasFeast = new Unique("Kitava's Feast", 9, temp, R.drawable.kitavasfeast);
+    Unique Limbsplit = new Unique("Limbsplit", 9, temp, R.drawable.limbsplit);
+    Unique NgamahusFlame = new Unique("Ngamahu's Flame", 9, temp, R.drawable.ngamahusflame);
+    Unique ReapersPursuit = new Unique("Reaper's Pursuit", 9, temp, R.drawable.reaperspursuit);
+    Unique SinvictasMettle = new Unique("Sinvicta's Mettle", 9, temp, R.drawable.sinvictasmettle);
+    Unique TheBloodReaper = new Unique("The Blood Reaper", 9, temp, R.drawable.thebloodreaper);
+    Unique TheCauteriser = new Unique("The Cauteriser", 9, temp, R.drawable.thecauteriser);
+    Unique TheHarvest = new Unique("The Harvest", 9, temp, R.drawable.theharvest);
+    Unique UulNetolsEmbrace = new Unique("Uul-Netol's Embrace", 9, temp, R.drawable.uulnetolsembrace);
+    Unique UulNetolsKiss = new Unique("Uul-Netol's Kiss", 9, temp, R.drawable.uulnetolskiss);
+    Unique Wideswing = new Unique("Wideswing", 9, temp, R.drawable.widesing);
+    Unique WingsofEntropy = new Unique("Wings of Entropy", 9, temp, R.drawable.wingsofentropy);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1598,6 +1654,35 @@ private void setUp(){
     allUniques.add(LepersAlms);
     allUniques.add(MaligarosLens);
     allUniques.add(ZeelsAmplifier);
+
+    allUniques.add(Dreadarc);
+    allUniques.add(Dreadsurge);
+    allUniques.add(Dyadus);
+    allUniques.add(JacktheAxe);
+    allUniques.add(MoonbendersWing);
+    allUniques.add(RelentlessFury);
+    allUniques.add(RigwaldsSavagery);
+    allUniques.add(SoulTaker);
+    allUniques.add(TheGryphon);
+    allUniques.add(TheScreamingEagle);
+    allUniques.add(AtzirisDisfavour);
+    allUniques.add(DebeonsDirge);
+    allUniques.add(HezmanasBloodlust);
+    allUniques.add(KaomsPrimacy);
+    allUniques.add(Kingmaker);
+    allUniques.add(KitavasFeast);
+    allUniques.add(Limbsplit);
+    allUniques.add(NgamahusFlame);
+    allUniques.add(ReapersPursuit);
+    allUniques.add(SinvictasMettle);
+    allUniques.add(TheBloodReaper);
+    allUniques.add(TheCauteriser);
+    allUniques.add(TheHarvest);
+    allUniques.add(UulNetolsEmbrace);
+    allUniques.add(UulNetolsKiss);
+    allUniques.add(Wideswing);
+    allUniques.add(WingsofEntropy);
+
 
 
 
