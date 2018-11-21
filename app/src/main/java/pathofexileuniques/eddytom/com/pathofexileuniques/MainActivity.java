@@ -840,6 +840,55 @@ private void setUp(){
     Unique Wideswing = new Unique("Wideswing", 9, temp, R.drawable.widesing);
     Unique WingsofEntropy = new Unique("Wings of Entropy", 9, temp, R.drawable.wingsofentropy);
 
+//Bows - code 10
+    Unique Arborix = new Unique("Arborix", 10, temp, R.drawable.arborix);
+    Unique ChinSol = new Unique("Chin Sol", 10, temp, R.drawable.chinsol);
+    Unique Darkscorn = new Unique("Darkscorn", 10, temp, R.drawable.darkscorn);
+    Unique DeathsHarp = new Unique("Death's Harp", 10, temp, R.drawable.deathsharp);
+    Unique DeathsOpus = new Unique("Death's Opus", 10, temp, R.drawable.deathsopus);
+    Unique DoomfletchsPrism = new Unique("Doomfletch's Prism", 10, temp, R.drawable.doomfletchsprism);
+    Unique Doomfletch = new Unique("Doomfletch", 10, temp, R.drawable.doomfletch);
+    Unique Hopeshredder = new Unique("Hopeshredder", 10, temp, R.drawable.hopeshredder);
+    Unique Infractem = new Unique("Infractem", 10, temp, R.drawable.infractem);
+    Unique IronCommander = new Unique("Iron Commander", 10, temp, R.drawable.ironcommander);
+    Unique LioneyesGlare = new Unique("Lioneye's Glare", 10, temp, R.drawable.lioneyesglare);
+    Unique NullsInclination = new Unique("Null's Inclination", 10, temp, R.drawable.nullsinclination);
+    Unique NurosHarp = new Unique("Nuro's Harp", 10, temp, R.drawable.nurosharp);
+    Unique QuillRain = new Unique("Quill Rain", 10, temp, R.drawable.quillrain);
+    Unique ReachoftheCouncil = new Unique("Reach of the Council", 10, temp, R.drawable.reachofthecouncil);
+    Unique RothsReach = new Unique("Roth's Reach", 10, temp, R.drawable.rothsreach);
+    Unique Silverbough = new Unique("Silverbough", 10, temp, R.drawable.silverbough);
+    Unique Silverbranch = new Unique("Silverbranch", 10, temp, R.drawable.silverbranch);
+    Unique Slivertongue = new Unique("Slivertongue", 10, temp, R.drawable.silvertoungue);
+    Unique StormCloud = new Unique("Storm Cloud", 10, temp, R.drawable.stormcloud);
+    Unique TheTempest = new Unique("The Tempest", 10, temp, R.drawable.thetempest);
+    Unique VoltaxicRift = new Unique("Voltaxic Rift", 10, temp, R.drawable.voltaxicrift);
+    Unique Windripper = new Unique("Windripper", 10, temp, R.drawable.windripper);
+    Unique XophsInception = new Unique("Xoph's Inception", 10, temp, R.drawable.xophsinception);
+    Unique XophsNurture = new Unique("Xoph's Nurture", 10, temp, R.drawable.xophsnurture);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1683,7 +1732,31 @@ private void setUp(){
     allUniques.add(Wideswing);
     allUniques.add(WingsofEntropy);
 
-
+    allUniques.add(Arborix);
+    allUniques.add(ChinSol);
+    allUniques.add(Darkscorn);
+    allUniques.add(DeathsHarp);
+    allUniques.add(DeathsOpus);
+    allUniques.add(DoomfletchsPrism);
+    allUniques.add(Doomfletch);
+    allUniques.add(Hopeshredder);
+    allUniques.add(Infractem);
+    allUniques.add(IronCommander);
+    allUniques.add(LioneyesGlare);
+    allUniques.add(NullsInclination);
+    allUniques.add(NurosHarp);
+    allUniques.add(QuillRain);
+    allUniques.add(ReachoftheCouncil);
+    allUniques.add(RothsReach);
+    allUniques.add(Silverbough);
+    allUniques.add(Silverbranch);
+    allUniques.add(Slivertongue);
+    allUniques.add(StormCloud);
+    allUniques.add(TheTempest);
+    allUniques.add(VoltaxicRift);
+    allUniques.add(Windripper);
+    allUniques.add(XophsInception);
+    allUniques.add(XophsNurture);
 
 
 
