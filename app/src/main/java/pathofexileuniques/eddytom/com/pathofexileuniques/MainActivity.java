@@ -867,6 +867,68 @@ private void setUp(){
     Unique XophsInception = new Unique("Xoph's Inception", 10, temp, R.drawable.xophsinception);
     Unique XophsNurture = new Unique("Xoph's Nurture", 10, temp, R.drawable.xophsnurture);
 
+//Claws - code 11
+    Unique AdvancingFortress = new Unique("Advancing Fortress", 11, temp, R.drawable.advancingfortress);
+    Unique AlDhih = new Unique("Al Dhih", 11, temp, R.drawable.aldhih);
+    Unique Allure = new Unique("Allure", 11, temp, R.drawable.allure);
+    Unique Bloodseeker = new Unique("Bloodseeker", 11, temp, R.drawable.bloodseeker);
+    Unique CybilsPaw = new Unique("Cybil's Paw", 11, temp, R.drawable.cybilspaw);
+    Unique EssentiaSanguis = new Unique("Essentia Sanguis", 11, temp, R.drawable.essentiasanguis);
+    Unique HandofThoughtandMotion = new Unique("Hand of Thought and Motion", 11, temp, R.drawable.handofthoughtandmotion);
+    Unique HandofWisdomandAction = new Unique("Hand of Wisdom and Action", 11, temp, R.drawable.handofwisdomandaction);
+    Unique IzarosDilemma = new Unique("Izaro's Dilemma", 11, temp, R.drawable.izarosdilemma);
+    Unique LastResort = new Unique("Last Resort", 11, temp, R.drawable.lastresort);
+    Unique MortemMorsu = new Unique("Mortem Morsu", 11, temp, R.drawable.mortemmorsu);
+    Unique OrnamentoftheEast = new Unique("Ornament of the East", 11, temp, R.drawable.ornamentoftheeast);
+    Unique Rive = new Unique("Rive", 11, temp, R.drawable.rive);
+    Unique TheScourge = new Unique("The Scourge", 11, temp, R.drawable.thescourge);
+    Unique TheWaspNest = new Unique("The Wasp Nest", 11, temp, R.drawable.thewaspnest);
+    Unique TouchofAnguish = new Unique("Touch of Anguish", 11, temp, R.drawable.touchofanguish);
+    Unique Wildslash = new Unique("Wildslash", 11, temp, R.drawable.wildslash);
+
+    //Daggers - code 12
+    Unique ArakaalisFang = new Unique("Arakaali's Fang", 12, temp, R.drawable.arakaalisfang);
+    Unique BinosKitchenKnife = new Unique("Bino's Kitchen Knife", 12, temp, R.drawable.binoskitchenknife);
+    Unique Bloodplay = new Unique("Bloodplay", 12, temp, R.drawable.bloodplay);
+    Unique Divinarius = new Unique("Divinarius", 12, temp, R.drawable.divinarius);
+    Unique Goredrill = new Unique("Goredrill", 12, temp, R.drawable.goredrill);
+    Unique Heartbreaker = new Unique("Heartbreaker", 12, temp, R.drawable.heartbreaker);
+    Unique MarkoftheDoubtingKnight = new Unique("Mark of the Doubting Knight", 12, temp, R.drawable.markofthedoubtingknight);
+    Unique Mightflay = new Unique("Mightflay", 12, temp, R.drawable.mightflay);
+    Unique SanguineGambol = new Unique("Sanguine Gambol", 12, temp, R.drawable.sanguinegambol);
+    Unique Taproot = new Unique("Taproot", 12, temp, R.drawable.taproot);
+    Unique TheConsumingDark = new Unique("The Consuming Dark", 12, temp, R.drawable.theconsumingdark);
+    Unique UngilsGauche = new Unique("Ungil's Gauche", 12, temp, R.drawable.ungilsgauche);
+    Unique Vulconus = new Unique("Vulconus", 12, temp, R.drawable.vulconus);
+    Unique WhiteWind = new Unique("White Wind", 12, temp, R.drawable.whitewind);
+    Unique Widowmaker = new Unique("Widowmaker", 12, temp, R.drawable.widowmaker);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1758,7 +1820,39 @@ private void setUp(){
     allUniques.add(XophsInception);
     allUniques.add(XophsNurture);
 
+    allUniques.add(AdvancingFortress);
+    allUniques.add(AlDhih);
+    allUniques.add(Allure);
+    allUniques.add(Bloodseeker);
+    allUniques.add(CybilsPaw);
+    allUniques.add(EssentiaSanguis);
+    allUniques.add(HandofThoughtandMotion);
+    allUniques.add(HandofWisdomandAction);
+    allUniques.add(IzarosDilemma);
+    allUniques.add(LastResort);
+    allUniques.add(MortemMorsu);
+    allUniques.add(OrnamentoftheEast);
+    allUniques.add(Rive);
+    allUniques.add(TheScourge);
+    allUniques.add(TheWaspNest);
+    allUniques.add(TouchofAnguish);
+    allUniques.add(Wildslash);
 
+    allUniques.add(ArakaalisFang);
+    allUniques.add(BinosKitchenKnife);
+    allUniques.add(Bloodplay);
+    allUniques.add(Divinarius);
+    allUniques.add(Goredrill);
+    allUniques.add(Heartbreaker);
+    allUniques.add(MarkoftheDoubtingKnight);
+    allUniques.add(Mightflay);
+    allUniques.add(SanguineGambol);
+    allUniques.add(Taproot);
+    allUniques.add(TheConsumingDark);
+    allUniques.add(UngilsGauche);
+    allUniques.add(Vulconus);
+    allUniques.add(WhiteWind);
+    allUniques.add(Widowmaker);
 
 
 
