@@ -903,6 +903,101 @@ private void setUp(){
     Unique WhiteWind = new Unique("White Wind", 12, temp, R.drawable.whitewind);
     Unique Widowmaker = new Unique("Widowmaker", 12, temp, R.drawable.widowmaker);
 
+//Fishing Rods - code 13
+    Unique Reefbane = new Unique("Reefbane", 13, temp, R.drawable.reefbane);
+    Unique SongoftheSirens = new Unique("Song of the Sirens", 13, temp, R.drawable.songofthesirens);
+
+//Maces - code 14
+    Unique Brightbeak = new Unique("Brightbeak", 14, temp, R.drawable.brightbeak);
+    Unique CallinellusMalleus = new Unique("Callinellus Malleus", 14, temp, R.drawable.callinellusmalleus);
+    Unique CameriasAvarice = new Unique("Cameria's Avarice", 14, temp, R.drawable.cameriasavarice);
+    Unique CameriasMaul = new Unique("Cameria's Maul", 14, temp, R.drawable.cameriasmaul);
+    Unique Clayshaper = new Unique("Clayshaper", 14, temp, R.drawable.clayshaper);
+    Unique FleshEater = new Unique("Flesh-Eater", 14, temp, R.drawable.flesheater);
+    Unique Frostbreath = new Unique("Frostbreath", 14, temp, R.drawable.frostbreath);
+    Unique Gorebreaker = new Unique("Gorebreaker", 14, temp, R.drawable.gorebreaker);
+    Unique LaviangasWisdom = new Unique("Lavianga's Wisdom", 14, temp, R.drawable.laviangaswisdom);
+    Unique Mjolner = new Unique("Mjölner", 14, temp, R.drawable.mjolner);
+    Unique Nebuloch = new Unique("Nebuloch", 14, temp, R.drawable.nebuloch);
+
+    Unique Augyre = new Unique("Augyre", 14, temp, R.drawable.augyre);
+    Unique AxiomPerpetuum = new Unique("Axiom Perpetuum", 14, temp, R.drawable.axiomperpetuum);
+    Unique Balefire = new Unique("Balefire", 14, temp, R.drawable.balefire);
+    Unique Bitterdream = new Unique("Bitterdream", 14, temp, R.drawable.bitterdream);
+    Unique BreathoftheCouncil = new Unique("Breath of the Council", 14, temp, R.drawable.breathofthecouncil);
+    Unique BrutusLeadSprinkler = new Unique("Brutus' Lead Sprinkler", 14, temp, R.drawable.brutusleadsprinkler);
+    Unique CerberusLimb = new Unique("Cerberus Limb", 14, temp, R.drawable.cerberuslimb);
+    Unique DeathsHand = new Unique("Death's Hand", 14, temp, R.drawable.deathshand);
+    Unique DoonCuebiyari = new Unique("Doon Cuebiyari", 14, temp, R.drawable.dooncuebiyari);
+    Unique DoryanisCatalyst = new Unique("Doryani's Catalyst", 14, temp, R.drawable.doryaniscatalyst);
+    Unique EarendelsEmbrace = new Unique("Earendel's Embrace", 14, temp, R.drawable.earendelsembrace);
+    Unique MontregulsGrasp = new Unique("Mon'tregul's Grasp", 14, temp, R.drawable.montregulsgrasp);
+    Unique NyctasLantern = new Unique("Nycta's Lantern", 14, temp, R.drawable.nyctaslantern);
+    Unique Singularity = new Unique("Singularity", 14, temp, R.drawable.singularity);
+    Unique SpineoftheFirstClaimant = new Unique("Spine of the First Claimant", 14, temp, R.drawable.spineofthefirstclaimant);
+    Unique TheDarkSeerOne = new Unique("The Dark Seer (Life ES)", 14, temp, R.drawable.thedarkseerone);
+    Unique TheDarkSeerTwo = new Unique("The Dark Seer (Mana ES)", 14, temp, R.drawable.thedarkseertwo);
+    Unique TheDarkSeerThree = new Unique("The Dark Seer (Life Mana)", 14, temp, R.drawable.thedarkseerthree);
+    Unique TheSupremeTruth = new Unique("The Supreme Truth", 14, temp, R.drawable.thesupremetruth);
+
+    Unique BrainRattler = new Unique("Brain Rattler", 14, temp, R.drawable.brainrattler);
+    Unique ChaberCairn = new Unique("Chaber Cairn", 14, temp, R.drawable.chabercairn);
+    Unique ChoberChaber = new Unique("Chober Chaber", 14, temp, R.drawable.choberchaber);
+    Unique GeofrisBaptism = new Unique("Geofri's Baptism", 14, temp, R.drawable.geofrisbaptism);
+    Unique GeofrisDevotion = new Unique("Geofri's Devotion", 14, temp, R.drawable.geofrisdevotion);
+    Unique HrimnorsDirge = new Unique("Hrimnor's Dirge", 14, temp, R.drawable.hrimnorsdirge);
+    Unique HrimnorsHymn = new Unique("Hrimnor's Hymn", 14, temp, R.drawable.hrimnorshymn);
+    Unique JorrhastsBlacksteel = new Unique("Jorrhast's Blacksteel", 14, temp, R.drawable.jorrhastsblacksteel);
+    Unique KongorsUndyingRage = new Unique("Kongor's Undying Rage", 14, temp, R.drawable.kongorsundyingrage);
+    Unique MarohiErqi = new Unique("Marohi Erqi", 14, temp, R.drawable.marohierqi);
+    Unique Panquetzaliztli = new Unique("Panquetzaliztli", 14, temp, R.drawable.panquetzaliztli);
+    Unique Quecholli = new Unique("Quecholli", 14, temp, R.drawable.quencholli);
+    Unique Tidebreaker = new Unique("Tidebreaker", 14, temp, R.drawable.tidebreaker);
+    Unique Trypanon = new Unique("Trypanon", 14, temp, R.drawable.trypanon);
+    Unique Voidhome = new Unique("Voidhome", 14, temp, R.drawable.voidhome);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1853,6 +1948,55 @@ private void setUp(){
     allUniques.add(Vulconus);
     allUniques.add(WhiteWind);
     allUniques.add(Widowmaker);
+
+    allUniques.add(Reefbane);
+    allUniques.add(SongoftheSirens);
+
+    allUniques.add(Brightbeak);
+    allUniques.add(CallinellusMalleus);
+    allUniques.add(CameriasAvarice);
+    allUniques.add(CameriasMaul);
+    allUniques.add(Clayshaper);
+    allUniques.add(FleshEater);
+    allUniques.add(Frostbreath);
+    allUniques.add(Gorebreaker);
+    allUniques.add(LaviangasWisdom);
+    allUniques.add(Mjolner);
+    allUniques.add(Nebuloch);
+    allUniques.add(Augyre);
+    allUniques.add(AxiomPerpetuum);
+    allUniques.add(Balefire);
+    allUniques.add(Bitterdream);
+    allUniques.add(BreathoftheCouncil);
+    allUniques.add(BrutusLeadSprinkler);
+    allUniques.add(CerberusLimb);
+    allUniques.add(DeathsHand);
+    allUniques.add(DoonCuebiyari);
+    allUniques.add(DoryanisCatalyst);
+    allUniques.add(EarendelsEmbrace);
+    allUniques.add(MontregulsGrasp);
+    allUniques.add(NyctasLantern);
+    allUniques.add(Singularity);
+    allUniques.add(SpineoftheFirstClaimant);
+    allUniques.add(TheDarkSeerOne);
+    allUniques.add(TheDarkSeerTwo);
+    allUniques.add(TheDarkSeerThree);
+    allUniques.add(TheSupremeTruth);
+    allUniques.add(BrainRattler);
+    allUniques.add(ChaberCairn);
+    allUniques.add(ChoberChaber);
+    allUniques.add(GeofrisBaptism);
+    allUniques.add(GeofrisDevotion);
+    allUniques.add(HrimnorsDirge);
+    allUniques.add(HrimnorsHymn);
+    allUniques.add(JorrhastsBlacksteel);
+    allUniques.add(KongorsUndyingRage);
+    allUniques.add(MarohiErqi);
+    allUniques.add(Panquetzaliztli);
+    allUniques.add(Quecholli);
+    allUniques.add(Tidebreaker);
+    allUniques.add(Trypanon);
+    allUniques.add(Voidhome);
 
 
 
