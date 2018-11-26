@@ -956,6 +956,188 @@ private void setUp(){
     Unique Trypanon = new Unique("Trypanon", 14, temp, R.drawable.trypanon);
     Unique Voidhome = new Unique("Voidhome", 14, temp, R.drawable.voidhome);
 
+//Staffes - code 15
+    Unique AgnerodEast = new Unique("Agnerod East", 15, temp, R.drawable.agnerodeast);
+    Unique AgnerodNorth = new Unique("Agnerod North", 15, temp, R.drawable.agnerodnorth);
+    Unique AgnerodSouth = new Unique("Agnerod South", 15, temp, R.drawable.agnerodsouth);
+    Unique AgnerodWest = new Unique("Agnerod West", 15, temp, R.drawable.agnerodwest);
+    Unique CaneofUnravelling = new Unique("Cane of Unravelling", 15, temp, R.drawable.caneofunravelling);
+   //check for picture quality
+    Unique Disintegrator = new Unique("Disintegrator", 15, temp, R.drawable.disintegrator);
+    Unique Duskdawn = new Unique("Duskdawn", 15, temp, R.drawable.duskdawn);
+    Unique DyingBreath = new Unique("Dying Breath", 15, temp, R.drawable.dyingbreath);
+    Unique FemursoftheSaints = new Unique("Femurs of the Saints", 15, temp, R.drawable.femursofthesaints);
+    Unique Fencoil = new Unique("Fencoil", 15, temp, R.drawable.fencoil);
+    Unique HegemonysEra = new Unique("Hegemony's Era", 15, temp, R.drawable.hegemonysera);
+    Unique MartyrofInnocence = new Unique("Martyr of Innocence", 15, temp, R.drawable.martyrofinnocence);
+    Unique Mirebough = new Unique("Mirebough", 15, temp, R.drawable.mirebouch);
+    Unique PillaroftheCagedGod = new Unique("Pillar of the Caged God", 15, temp, R.drawable.pillarofthecagedgod);
+    Unique PledgeofHands = new Unique("Pledge of Hands", 15, temp, R.drawable.pledgeofhands);
+    Unique RealmEnder = new Unique("Realm Ender", 15, temp, R.drawable.realmender);
+    Unique Realmshaper = new Unique("Realmshaper", 15, temp, R.drawable.realmshaper);
+    Unique SireofShards = new Unique("Sire of Shards", 15, temp, R.drawable.sireofshards);
+    Unique Soulwrest = new Unique("Soulwrest", 15, temp, R.drawable.soulwrest);
+    Unique TarynsShiver = new Unique("Taryn's Shiver", 15, temp, R.drawable.tarynsshiver);
+    Unique TheBloodThorn = new Unique("The Blood Thorn", 15, temp, R.drawable.thebloodthorn);
+    Unique TheEnmityDivine = new Unique("The Enmity Divine", 15, temp, R.drawable.theenmitydivine);
+    Unique TheGreySpire = new Unique("The Grey Spire", 15, temp, R.drawable.thegreyspire);
+    Unique TheSearingTouch = new Unique("The Searing Touch", 15, temp, R.drawable.thesearingtouch);
+    Unique TheStormheart = new Unique("The Stormheart", 15, temp, R.drawable.thestormheart);
+    Unique TheStormwall = new Unique("The Stormwall", 15, temp, R.drawable.thestormwall);
+    Unique TheWhisperingIce = new Unique("The Whispering Ice", 15, temp, R.drawable.thewhisperingice);
+    Unique TremorRod = new Unique("Tremor Rod", 15, temp, R.drawable.tremorrod);
+    Unique XirgilsCrank = new Unique("Xirgil's Crank", 15, temp, R.drawable.xirgilscrank);
+
+//Swords - code 16
+    Unique AhnsMight = new Unique("Ahn's Might", 16, temp, R.drawable.ahnsmight);
+    Unique BeltimberBlade = new Unique("Beltimber Blade", 16, temp, R.drawable.beltimberblade);
+    Unique Dreadbeak = new Unique("Dreadbeak", 16, temp, R.drawable.dreadbeak);
+    Unique Dreamfeather = new Unique("Dreamfeather", 16, temp, R.drawable.dreamfeather);
+    Unique EphemeralEdge = new Unique("Ephemeral Edge", 16, temp, R.drawable.ephemeraledge);
+    Unique FateoftheVaal = new Unique("Fate of the Vaal", 16, temp, R.drawable.fateofthevaal);
+    Unique GrelwoodShank = new Unique("Grelwood Shank", 16, temp, R.drawable.grelwoodshank);
+    Unique HyaonsFury = new Unique("Hyaon's Fury", 16, temp, R.drawable.hyaonsfury);
+    Unique Ichimonji = new Unique("Ichimonji", 16, temp, R.drawable.ichimonji);
+    Unique InnsburyEdge = new Unique("Innsbury Edge", 16, temp, R.drawable.innsburyedge);
+    Unique LakishusBlade = new Unique("Lakishu's Blade", 16, temp, R.drawable.lakishusblade);
+    Unique OniGoroshi = new Unique("Oni-Goroshi", 16, temp, R.drawable.onigoroshi);
+    Unique PrismaticEclipse = new Unique("Prismatic Eclipse", 16, temp, R.drawable.prismaticeclipse);
+    Unique RazoroftheSeventhSun = new Unique("Razor of the Seventh Sun", 16, temp, R.drawable.razoroftheseventhsun);
+    Unique RebukeoftheVaal = new Unique("Rebuke of the Vaal", 16, temp, R.drawable.rebukeofthevaal);
+    Unique Redbeak = new Unique("Redbeak", 16, temp, R.drawable.redbeak);
+    Unique RigwaldsCommand = new Unique("Rigwald's Command", 16, temp, R.drawable.rigwaldscommand);
+    Unique Scaeva = new Unique("Scaeva", 16, temp, R.drawable.scaeva);
+    Unique SeveredinSleep = new Unique("Severed in Sleep", 16, temp, R.drawable.severedinsleep);
+    Unique StoryoftheVaal = new Unique("Story of the Vaal", 16, temp, R.drawable.storyofthevaal);
+    Unique TheGoddessScorned = new Unique("The Goddess Scorned", 16, temp, R.drawable.thegoddessscorned);
+    Unique ThePrincess = new Unique("The Princess", 16, temp, R.drawable.theprincess);
+    Unique TheRipplingThoughts = new Unique("The Rippling Thoughts", 16, temp, R.drawable.theripplingthoughts);
+    Unique TheTempestuousSteel = new Unique("The Tempestuous Steel", 16, temp, R.drawable.thetempestuoussteel);
+    Unique UnitedinDream = new Unique("United in Dream", 16, temp, R.drawable.unitedindream);
+    Unique Varunastra = new Unique("Varunastra", 16, temp, R.drawable.varunastra);
+
+    Unique Aurumvorax = new Unique("Aurumvorax", 16, temp, R.drawable.aurumvorax);
+    Unique ChitusNeedle = new Unique("Chitus' Needle", 16, temp, R.drawable.chitusneedle);
+    Unique CosprisMalice = new Unique("Cospri's Malice", 16, temp, R.drawable.cosprismalice);
+    Unique DaressosPassion = new Unique("Daresso's Passion", 16, temp, R.drawable.daressospassion);
+    Unique EwarsMirage = new Unique("Ewar's Mirage", 16, temp, R.drawable.ewarsmirage);
+    Unique FidelitasSpike = new Unique("Fidelitas' Spike", 16, temp, R.drawable.fidelitasspike);
+    Unique TheGoddessBound = new Unique("The Goddess Bound", 16, temp, R.drawable.thegoddessbound);
+
+    Unique Doomsower = new Unique("Doomsower", 16, temp, R.drawable.doomshower);
+    Unique EdgeofMadness = new Unique("Edge of Madness", 16, temp, R.drawable.edgeofmadness);
+    Unique Hiltless = new Unique("Hiltless", 16, temp, R.drawable.hiltless);
+    Unique KondosPride = new Unique("Kondo's Pride", 16, temp, R.drawable.kondospride);
+    Unique OrosSacrifice = new Unique("Oro's Sacrifice", 16, temp, R.drawable.orossacrifice);
+    Unique QueensDecree = new Unique("Queen's Decree", 16, temp, R.drawable.queensdecree);
+    Unique QueensEscape = new Unique("Queen's Escape", 16, temp, R.drawable.queensescape);
+    Unique RigwaldsCharge = new Unique("Rigwald's Charge", 16, temp, R.drawable.rigwaldscharge);
+    Unique Shiversting = new Unique("Shiversting", 16, temp, R.drawable.shiversting);
+    Unique Starforge = new Unique("Starforge", 16, temp, R.drawable.starforge);
+    Unique TerminusEst = new Unique("Terminus Est", 16, temp, R.drawable.terminusest);
+    Unique TheDancingDervish = new Unique("The Dancing Dervish", 16, temp, R.drawable.thedancingdervish);
+    Unique TheDancingDuo = new Unique("The Dancing Duo", 16, temp, R.drawable.thedancingduo);
+    Unique Voidforge = new Unique("Voidforge", 16, temp, R.drawable.voidforge);
+
+//Wands - code 17
+    Unique AbberathsHorn = new Unique("Abberath's Horn", 17, temp, R.drawable.abberathshorn);
+    Unique AmplificationRod = new Unique("Amplification Rod", 17, temp, R.drawable.amplificationrod);
+    Unique ApepsRage = new Unique("Apep's Rage", 17, temp, R.drawable.apepsrage);
+    Unique Ashcaller = new Unique("Ashcaller", 17, temp, R.drawable.ashcaller);
+    Unique CoronaSolaris = new Unique("Corona Solaris", 17, temp, R.drawable.coronasolaris);
+    Unique EclipseSolaris = new Unique("Eclipse Solaris", 17, temp, R.drawable.eclipsesolaris);
+    Unique Lifesprig = new Unique("Lifesprig", 17, temp, R.drawable.lifesprig);
+    Unique MidnightBargain = new Unique("Midnight Bargain", 17, temp, R.drawable.midnightbargain);
+    Unique Moonsorrow = new Unique("Moonsorrow", 17, temp, R.drawable.moonsorrow);
+    Unique Obliteration = new Unique("Obliteration", 17, temp, R.drawable.obliteration);
+    Unique PiscatorsVigil = new Unique("Piscator's Vigil", 17, temp, R.drawable.piscatorsvigil);
+    Unique ReverberationRod = new Unique("Reverberation Rod", 17, temp, R.drawable.reverberationrod);
+    Unique ShadeofSolaris = new Unique("Shade of Solaris", 17, temp, R.drawable.shadeofsolaris);
+    Unique Shimmeron = new Unique("Shimmeron", 17, temp, R.drawable.shimmeron);
+    Unique StormPrison = new Unique("Storm Prison", 17, temp, R.drawable.stormprison);
+    Unique ThePoetsPen = new Unique("The Poet's Pen", 17, temp, R.drawable.thepoetspen);
+    Unique Tulborn = new Unique("Tulborn", 17, temp, R.drawable.tulborn);
+    Unique Tulfall = new Unique("Tulfall", 17, temp, R.drawable.tulfall);
+    Unique Twyzel = new Unique("Twyzel", 17, temp, R.drawable.twyzel);
+    Unique VoidBattery = new Unique("Void Battery", 17, temp, R.drawable.voidbattery);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1998,6 +2180,106 @@ private void setUp(){
     allUniques.add(Trypanon);
     allUniques.add(Voidhome);
 
+    allUniques.add(AgnerodEast);
+    allUniques.add(AgnerodNorth);
+    allUniques.add(AgnerodSouth);
+    allUniques.add(AgnerodWest);
+    allUniques.add(CaneofUnravelling);
+    allUniques.add(Disintegrator);
+    allUniques.add(Duskdawn);
+    allUniques.add(DyingBreath);
+    allUniques.add(FemursoftheSaints);
+    allUniques.add(Fencoil);
+    allUniques.add(HegemonysEra);
+    allUniques.add(MartyrofInnocence);
+    allUniques.add(Mirebough);
+    allUniques.add(PillaroftheCagedGod);
+    allUniques.add(PledgeofHands);
+    allUniques.add(RealmEnder);
+    allUniques.add(Realmshaper);
+    allUniques.add(SireofShards);
+    allUniques.add(Soulwrest);
+    allUniques.add(TarynsShiver);
+    allUniques.add(TheBloodThorn);
+    allUniques.add(TheEnmityDivine);
+    allUniques.add(TheGreySpire);
+    allUniques.add(TheSearingTouch);
+    allUniques.add(TheStormheart);
+    allUniques.add(TheStormwall);
+    allUniques.add(TheWhisperingIce);
+    allUniques.add(TremorRod);
+    allUniques.add(XirgilsCrank);
+
+    allUniques.add(AhnsMight);
+    allUniques.add(BeltimberBlade);
+    allUniques.add(Dreadbeak);
+    allUniques.add(Dreamfeather);
+    allUniques.add(EphemeralEdge);
+    allUniques.add(FateoftheVaal);
+    allUniques.add(GrelwoodShank);
+    allUniques.add(HyaonsFury);
+    allUniques.add(Ichimonji);
+    allUniques.add(InnsburyEdge);
+    allUniques.add(LakishusBlade);
+    allUniques.add(OniGoroshi);
+    allUniques.add(PrismaticEclipse);
+    allUniques.add(RazoroftheSeventhSun);
+    allUniques.add(RebukeoftheVaal);
+    allUniques.add(Redbeak);
+    allUniques.add(RigwaldsCommand);
+    allUniques.add(Scaeva);
+    allUniques.add(SeveredinSleep);
+    allUniques.add(StoryoftheVaal);
+    allUniques.add(TheGoddessScorned);
+    allUniques.add(ThePrincess);
+    allUniques.add(TheRipplingThoughts);
+    allUniques.add(TheTempestuousSteel);
+    allUniques.add(UnitedinDream);
+    allUniques.add(Varunastra);
+
+    allUniques.add(Aurumvorax);
+    allUniques.add(ChitusNeedle);
+    allUniques.add(CosprisMalice);
+    allUniques.add(DaressosPassion);
+    allUniques.add(EwarsMirage);
+    allUniques.add(FidelitasSpike);
+    allUniques.add(TheGoddessBound);
+
+    allUniques.add(Doomsower);
+    allUniques.add(EdgeofMadness);
+    allUniques.add(Hiltless);
+    allUniques.add(KondosPride);
+    allUniques.add(OrosSacrifice);
+    allUniques.add(QueensDecree);
+    allUniques.add(QueensEscape);
+    allUniques.add(RigwaldsCharge);
+    allUniques.add(Shiversting);
+    allUniques.add(Starforge);
+    allUniques.add(TerminusEst);
+    allUniques.add(TheDancingDervish);
+    allUniques.add(TheDancingDuo);
+    allUniques.add(Voidforge);
+
+    allUniques.add(AbberathsHorn);
+    allUniques.add(AmplificationRod);
+    allUniques.add(ApepsRage);
+    allUniques.add(Ashcaller);
+    allUniques.add(CoronaSolaris);
+    allUniques.add(EclipseSolaris);
+    allUniques.add(Lifesprig);
+    allUniques.add(MidnightBargain);
+    allUniques.add(Moonsorrow);
+    allUniques.add(Obliteration);
+    allUniques.add(PiscatorsVigil);
+    allUniques.add(ReverberationRod);
+    allUniques.add(ShadeofSolaris);
+    allUniques.add(Shimmeron);
+    allUniques.add(StormPrison);
+    allUniques.add(ThePoetsPen);
+    allUniques.add(Tulborn);
+    allUniques.add(Tulfall);
+    allUniques.add(Twyzel);
+    allUniques.add(VoidBattery);
 
 
 
