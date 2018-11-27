@@ -374,11 +374,11 @@ private void setUp(){
             Unique AnglersPlait = new Unique("Angler's Plait", 2, temp, R.drawable.anglerspl);
             Unique BereksGrip = new Unique("Berek's Grip", 2, temp, R.drawable.bereksgrip);
             Unique BereksPass = new Unique("Berek's Pass", 2, temp, R.drawable.berekspass);
-//Berek's Respite
+            Unique BereksRespite = new Unique("Berek's Respite", 2, temp, R.drawable.bereksrespite);
             Unique Blackheart = new Unique("Blackheart", 2, temp, R.drawable.blackheart);
             Unique Bloodboil = new Unique("Bloodboil", 2, temp, R.drawable.bloodboil);
             Unique BrinerotMark = new Unique("Brinerot Mark", 2, temp, R.drawable.brinenotmark);
-//Call of the Brotherhood
+            Unique CalloftheBrotherhood = new Unique("Call of the Brotherhood", 2, temp, R.drawable.callofthebrotherhood);
             Unique DeathRush = new Unique("Death Rush", 2, temp, R.drawable.deathrush);
             Unique DoedresDamning = new Unique("Doedre's Damning", 2, temp, R.drawable.doesdresdamning);
             Unique DreamFragments = new Unique("Dream Fragments", 2, temp, R.drawable.dreamfragments);
@@ -1061,6 +1061,146 @@ private void setUp(){
     Unique Twyzel = new Unique("Twyzel", 17, temp, R.drawable.twyzel);
     Unique VoidBattery = new Unique("Void Battery", 17, temp, R.drawable.voidbattery);
 
+//Flasks - code 18
+    Unique BloodoftheKarui = new Unique("Blood of the Karui", 18, temp, R.drawable.bloodofthekarui);
+
+    Unique DoedresElixir = new Unique("Doedre's Elixir", 18, temp, R.drawable.doedreselixir);
+    Unique LaviangasSpirit = new Unique("Lavianga's Spirit", 18, temp, R.drawable.laviangasspirit);
+    Unique ZerphisLastBreath = new Unique("Zerphi's Last Breath", 18, temp, R.drawable.zephrislastbreath);
+
+    Unique DivinationDistillate = new Unique("Divination Distillate", 18, temp, R.drawable.divinationdistillate);
+    Unique TheWrithingJar = new Unique("The Writhing Jar", 18, temp, R.drawable.thewrithingjar);
+
+    Unique AtzirisPromise = new Unique("Atziri's Promise", 18, temp, R.drawable.atzirispromise);
+    Unique CoruscatingElixir = new Unique("Coruscating Elixir", 18, temp, R.drawable.coruscatingelixir);
+    Unique DyingSun = new Unique("Dying Sun", 18, temp, R.drawable.dyingsun);
+    Unique ForbiddenTaste = new Unique("Forbidden Taste", 18, temp, R.drawable.forbiddentaste);
+    Unique KiarasDetermination = new Unique("Kiara's Determination", 18, temp, R.drawable.kiarasdetermination);
+    Unique LionsRoar = new Unique("Lion's Roar", 18, temp, R.drawable.lionsroar);
+    Unique Rotgut = new Unique("Rotgut", 18, temp, R.drawable.rotgut);
+    Unique RumisConcoction = new Unique("Rumi's Concoction", 18, temp, R.drawable.rumisconcoction);
+    Unique SinsRebirth = new Unique("Sin's Rebirth", 18, temp, R.drawable.sinsrebirth);
+    Unique SoulCatcher = new Unique("Soul Catcher", 18, temp, R.drawable.soulcatcher);
+    Unique SoulRipper = new Unique("Soul Ripper", 18, temp, R.drawable.soulripper);
+    Unique TasteofHate = new Unique("Taste of Hate", 18, temp, R.drawable.tasteofhate);
+    Unique TheOverflowingChalice = new Unique("The Overflowing Chalice", 18, temp, R.drawable.theoverflowingchalice);
+    Unique TheSorrowoftheDivine = new Unique("The Sorrow of the Divine", 18, temp, R.drawable.thesorrowofthedivine);
+    Unique TheWiseOak = new Unique("The Wise Oak", 18, temp, R.drawable.thewiseoak);
+    Unique VesselofVinktarOne = new Unique("Vessel of Vinktar (Physical Damage Converted to Lightning Damage)", 18, temp, R.drawable.vesselofvinktarone);
+    Unique VesselofVinktarTwo = new Unique("Vessel of Vinktar (Added Lightning Damage to Spells)", 18, temp, R.drawable.vesselofvinktartwo);
+    Unique VesselofVinktarThree = new Unique("Vessel of Vinktar (Added Lightning Damage to Attacks)", 18, temp, R.drawable.vesselofvinktarthree);
+    Unique VesselofVinktarFour = new Unique("Vessel of Vinktar (Lightning Penetration)", 18, temp, R.drawable.vesselofvinktarfour);
+    Unique WitchfireBrew = new Unique("Witchfire Brew", 18, temp, R.drawable.witchfirebrew);
+
+//Jewels - code 19
+    Unique AnatomicalKnowledge = new Unique("Anatomical Knowledge", 19, temp, R.drawable.anatomicalknowlendge);
+    Unique Apparitions = new Unique("Apparitions", 19, temp, R.drawable.apparitions);
+    Unique AssassinsHaste = new Unique("Assassin's Haste", 19, temp, R.drawable.assassinshaste);
+    Unique Brawn = new Unique("Brawn", 19, temp, R.drawable.brawn);
+    Unique BruteForceSolution = new Unique("Brute Force Solution", 19, temp, R.drawable.bruteforcesolution);
+    Unique CarefulPlanning = new Unique("Careful Planning", 19, temp, R.drawable.carefullplanning);
+    Unique CheapConstruction = new Unique("Cheap Construction", 19, temp, R.drawable.cheapconstruction);
+    Unique ClearMind = new Unique("Clear Mind", 19, temp, R.drawable.clearmind);
+    Unique CoatedShrapnel = new Unique("Coated Shrapnel", 19, temp, R.drawable.coatedshrapnel);
+    Unique ColdSteel = new Unique("Cold Steel", 19, temp, R.drawable.coldsteel);
+    Unique CollateralDamage = new Unique("Collateral Damage", 19, temp, R.drawable.collateraldamage);
+    Unique CombatFocusOne = new Unique("Combat Focus (Cobalt Jewel)", 19, temp, R.drawable.combatfocusone);
+    Unique CombatFocusTwo = new Unique("Combat Focus (Crimson Jewel)", 19, temp, R.drawable.combatfocustwo);
+    Unique CombatFocusThree = new Unique("Combat Focus (Viridian Jewel)", 19, temp, R.drawable.combatfocusthree);
+    Unique ConquerorsEfficiency = new Unique("Conqueror's Efficiency", 19, temp, R.drawable.conquerorsefficiency);
+    Unique ConquerorsLongevity = new Unique("Conqueror's Longevity", 19, temp, R.drawable.conquerorslongevity);
+    Unique ConquerorsPotency = new Unique("Conqueror's Potency", 19, temp, R.drawable.conquerorspotency);
+    Unique DeadReckoning = new Unique("Dead Reckoning", 19, temp, R.drawable.deadreckoning);
+    Unique EfficientTraining = new Unique("Efficient Training", 19, temp, R.drawable.efficienttraining);
+    Unique EldritchKnowledge = new Unique("Eldritch Knowledge", 19, temp, R.drawable.eldritchknowledge);
+    Unique EmperorsCunning = new Unique("Emperor's Cunning", 19, temp, R.drawable.emperorscunning);
+    Unique EmperorsMastery = new Unique("Emperor's Mastery", 19, temp, R.drawable.emperorsmastery);
+    Unique EmperorsMight = new Unique("Emperor's Might", 19, temp, R.drawable.emperorsmight);
+    Unique EmperorsWit = new Unique("Emperor's Wit", 19, temp, R.drawable.emperorswit);
+    Unique EnergisedArmour = new Unique("Energised Armour", 19, temp, R.drawable.energisedarmour);
+    Unique EnergyFromWithin = new Unique("Energy From Within", 19, temp, R.drawable.energyfromwithin);
+    Unique FertileMind = new Unique("Fertile Mind", 19, temp, R.drawable.fertilemind);
+    Unique FightforSurvival = new Unique("Fight for Survival", 19, temp, R.drawable.fightforsurvival);
+    Unique Fireborn = new Unique("Fireborn", 19, temp, R.drawable.fireborn);
+    Unique FirstSnow = new Unique("First Snow", 19, temp, R.drawable.firstsnow);
+    Unique FluidMotion = new Unique("Fluid Motion", 19, temp, R.drawable.fluidmotion);
+    Unique FortifiedLegion = new Unique("Fortified Legion", 19, temp, R.drawable.fortifiedlegion);
+    Unique FragileBloom = new Unique("Fragile Bloom", 19, temp, R.drawable.fragilebloom);
+    Unique FromDust = new Unique("From Dust", 19, temp, R.drawable.fromdust);
+    Unique FrozenTrail = new Unique("Frozen Trail", 19, temp, R.drawable.frozentrail);
+    Unique GrandSpectrumOne = new Unique("Grand Spectrum (Viridian Jewel)", 19, temp, R.drawable.grandspectrum);
+    Unique GrandSpectrumTwo = new Unique("Grand Spectrum (Crimson Jewel)", 19, temp, R.drawable.grandspectrumtwo);
+    Unique GrandSpectrumThree = new Unique("Grand Spectrum (Cobalt Jewel)", 19, temp, R.drawable.grandspectrumthree);
+    Unique GrowingAgony = new Unique("Growing Agony", 19, temp, R.drawable.growingagony);
+    Unique HairTrigger = new Unique("Hair Trigger", 19, temp, R.drawable.hairtrigger);
+    Unique HazardousResearch = new Unique("Hazardous Research", 19, temp, R.drawable.hazardousresearch);
+    Unique HealthyMind = new Unique("Healthy Mind", 19, temp, R.drawable.healthymind);
+    Unique HiddenPotential = new Unique("Hidden Potential", 19, temp, R.drawable.hiddenpotential);
+    Unique Hotfooted = new Unique("Hotfooted", 19, temp, R.drawable.hotfooted);
+    Unique Inertia = new Unique("Inertia", 19, temp, R.drawable.intertia);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1640,9 +1780,11 @@ private void setUp(){
     allUniques.add(AnglersPlait);
     allUniques.add(BereksGrip);
     allUniques.add(BereksPass);
+    allUniques.add(BereksRespite);
     allUniques.add(Blackheart);
     allUniques.add(Bloodboil);
     allUniques.add(BrinerotMark);
+    allUniques.add(CalloftheBrotherhood);
     allUniques.add(DeathRush);
     allUniques.add(DoedresDamning);
     allUniques.add(DreamFragments);
