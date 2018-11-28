@@ -1138,539 +1138,113 @@ private void setUp(){
     Unique HiddenPotential = new Unique("Hidden Potential", 19, temp, R.drawable.hiddenpotential);
     Unique Hotfooted = new Unique("Hotfooted", 19, temp, R.drawable.hotfooted);
     Unique Inertia = new Unique("Inertia", 19, temp, R.drawable.intertia);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    Unique Inevitability = new Unique("Inevitability", 19, temp, R.drawable.inevitability);
+    Unique InspiredLearning = new Unique("Inspired Learning", 19, temp, R.drawable.inspiredlearning);
+    Unique IntuitiveLeap = new Unique("Intuitive Leap", 19, temp, R.drawable.intuitiveleap);
+    Unique IzarosTurmoil = new Unique("Izaro's Turmoil", 19, temp, R.drawable.izarosturmoil);
+    Unique LioneyesFall = new Unique("Lioneye's Fall", 19, temp, R.drawable.lioneyesfall);
+    Unique MaliciousIntent = new Unique("Malicious Intent", 19, temp, R.drawable.malicousintent);
+    Unique MantraofFlames = new Unique("Mantra of Flames", 19, temp, R.drawable.mantraofflames);
+    Unique MartialArtistry = new Unique("Martial Artistry", 19, temp, R.drawable.martialartistry);
+    Unique MightandInfluence = new Unique("Might and Influence", 19, temp, R.drawable.mightandinfluence);
+    Unique MightinAllForms = new Unique("Might in All Forms", 19, temp, R.drawable.mightinallforms);
+    Unique MightoftheMeek = new Unique("Might of the Meek", 19, temp, R.drawable.mightofthemeek);
+    Unique OmenontheWinds = new Unique("Omen on the Winds", 19, temp, R.drawable.omenonthewinds);
+    Unique OverwhelmingOdds = new Unique("Overwhelming Odds", 19, temp, R.drawable.overwhelmingodds);
+    Unique PitchDarkness = new Unique("Pitch Darkness", 19, temp, R.drawable.pitchdarkness);
+    Unique PoachersAim = new Unique("Poacher's Aim", 19, temp, R.drawable.poachersaim);
+    Unique PrimordialEminence = new Unique("Primordial Eminence", 19, temp, R.drawable.primordialeminence);
+    Unique PrimordialHarmony = new Unique("Primordial Harmony", 19, temp, R.drawable.primordialharmony);
+    Unique PrimordialMight = new Unique("Primordial Might", 19, temp, R.drawable.primordialmight);
+    Unique Pugilist = new Unique("Pugilist", 19, temp, R.drawable.pugilist);
+    Unique PureTalent = new Unique("Pure Talent", 19, temp, R.drawable.puretalent);
+    Unique RainofSplinters = new Unique("Rain of Splinters", 19, temp, R.drawable.rainofsplinters);
+    Unique RapidExpansion = new Unique("Rapid Expansion", 19, temp, R.drawable.rapidexpansion);
+    Unique RecklessDefence = new Unique("Reckless Defence", 19, temp, R.drawable.recklessdefence);
+    Unique RingofBlades = new Unique("Ring of Blades", 19, temp, R.drawable.ringofblades);
+    Unique RollingFlames = new Unique("Rolling Flames", 19, temp, R.drawable.rollingflames);
+    Unique ShatteredChains = new Unique("Shattered Chains", 19, temp, R.drawable.shatteredchains);
+    Unique SoulsWick = new Unique("Soul's Wick", 19, temp, R.drawable.soulswick);
+    Unique SpireofStone = new Unique("Spire of Stone", 19, temp, R.drawable.spireofsoul);
+    Unique SpiritGuards = new Unique("Spirit Guards", 19, temp, R.drawable.spiritguards);
+    Unique SpiritedResponse = new Unique("Spirited Response", 19, temp, R.drawable.spiritedresponse);
+    Unique SpreadingRot = new Unique("Spreading Rot", 19, temp, R.drawable.spreadingrot);
+    Unique StaticElectricity = new Unique("Static Electricity", 19, temp, R.drawable.staticelectricity);
+    Unique SteelSpirit = new Unique("Steel Spirit", 19, temp, R.drawable.steelspirit);
+    Unique SuddenIgnition = new Unique("Sudden Ignition", 19, temp, R.drawable.suddenignition);
+    Unique SurvivalInstincts = new Unique("Survival Instincts", 19, temp, R.drawable.survivalinstincts);
+    Unique SurvivalSecrets = new Unique("Survival Secrets", 19, temp, R.drawable.survivalsecrets);
+    Unique SurvivalSkills = new Unique("Survival Skills", 19, temp, R.drawable.survivalskills);
+    Unique TemperedFlesh = new Unique("Tempered Flesh", 19, temp, R.drawable.temperedflesh);
+    Unique TemperedMind = new Unique("Tempered Mind", 19, temp, R.drawable.temperedmind);
+    Unique TemperedSpirit = new Unique("Tempered Spirit", 19, temp, R.drawable.temperedspirit);
+    Unique TheAnimaStone = new Unique("The Anima Stone", 19, temp, R.drawable.theanimastone);
+    Unique TheBlueDream = new Unique("The Blue Dream", 19, temp, R.drawable.thebluedream);
+    Unique TheBlueNightmare = new Unique("The Blue Nightmare", 19, temp, R.drawable.thebluenightmare);
+    Unique TheGoldenRule = new Unique("The Golden Rule", 19, temp, R.drawable.thegoldenrule);
+    Unique TheGreenDream = new Unique("The Green Dream", 19, temp, R.drawable.thegreendream);
+    Unique TheGreenNightmare = new Unique("The Green Nightmare", 19, temp, R.drawable.thegreennightmare);
+    Unique TheLongWinter = new Unique("The Long Winter", 19, temp, R.drawable.thelongwinter);
+    Unique TheRedDream = new Unique("The Red Dream", 19, temp, R.drawable.thereddream);
+    Unique TheRedNightmare = new Unique("The Red Nightmare", 19, temp, R.drawable.therednightmare);
+    Unique TheVigil = new Unique("The Vigil", 19, temp, R.drawable.thevigil);
+    Unique ToDust = new Unique("To Dust", 19, temp, R.drawable.todust);
+    Unique TranscendentFlesh = new Unique("Transcendent Flesh", 19, temp, R.drawable.transcendentflesh);
+    Unique TranscendentMind = new Unique("Transcendent Mind", 19, temp, R.drawable.transcendentmind);
+    Unique TranscendentSpirit = new Unique("Transcendent Spirit", 19, temp, R.drawable.transcendentspirit);
+    Unique UnendingHunger = new Unique("Unending Hunger", 19, temp, R.drawable.unendinghunger);
+    Unique UnnaturalInstinct = new Unique("Unnatural Instinct", 19, temp, R.drawable.unnaturalinstinct);
+    Unique UnstablePayload = new Unique("Unstable Payload", 19, temp, R.drawable.unstablepayload);
+    Unique ViolentDead = new Unique("Violent Dead", 19, temp, R.drawable.violentdead);
+    Unique VolleyFire = new Unique("Volley Fire", 19, temp, R.drawable.volleyfire);
+    Unique WarlordsReach = new Unique("Warlord's Reach", 19, temp, R.drawable.warlordsreach);
+    Unique WatchersEye = new Unique("Watcher's Eye", 19, temp, R.drawable.watcherseye);
+    Unique WeightoftheEmpire = new Unique("Weight of the Empire", 19, temp, R.drawable.weightoftheempire);
+    Unique Wildfire = new Unique("Wildfire", 19, temp, R.drawable.wildfire);
+    Unique WinterBurial = new Unique("Winter Burial", 19, temp, R.drawable.winterburial);
+    Unique WintersBounty = new Unique("Winter's Bounty", 19, temp, R.drawable.wintersbounty);
+
+    Unique AncientWaystones = new Unique("Ancient Waystones", 19, temp, R.drawable.ancientwaystones);
+    Unique AtzirisReign = new Unique("Atziri's Reign", 19, temp, R.drawable.atzirisreign);
+    Unique BloodSacrifice = new Unique("Blood Sacrifice", 19, temp, R.drawable.bloodsacrifice);
+    Unique BrittleBarrier = new Unique("Brittle Barrier", 19, temp, R.drawable.brittlebarrier);
+    Unique ChillofCorruption = new Unique("Chill of Corruption", 19, temp, R.drawable.chillofcorruption);
+    Unique Combustibles = new Unique("Combustibles", 19, temp, R.drawable.combustibles);
+    Unique CorruptedEnergy = new Unique("Corrupted Energy", 19, temp, R.drawable.corruptedenergy);
+    Unique FeveredMind = new Unique("Fevered Mind", 19, temp, R.drawable.feveredmind);
+    Unique Fragility = new Unique("Fragility", 19, temp, R.drawable.fragility);
+    Unique HungryAbyss = new Unique("Hungry Abyss", 19, temp, R.drawable.hungryabyss);
+    Unique MutatedGrowth = new Unique("Mutated Growth", 19, temp, R.drawable.mutatedgrowth);
+    Unique Pacifism = new Unique("Pacifism", 19, temp, R.drawable.pacifism);
+    Unique Powerlessness = new Unique("Powerlessness", 19, temp, R.drawable.powerlessness);
+    Unique SacrificialHarvest = new Unique("Sacrificial Harvest", 19, temp, R.drawable.sacrificialharvest);
+    Unique SelfFlagellation = new Unique("Self-Flagellation", 19, temp, R.drawable.selfflagellation);
+    Unique VaalSentencing = new Unique("Vaal Sentencing", 19, temp, R.drawable.vaalsentencing);
+    Unique WeightofSin = new Unique("Weight of Sin", 19, temp, R.drawable.weightofsin);
+
+//Maps - code 20
+    Unique ActonsNightmare = new Unique("Acton's Nightmare", 20, temp, R.drawable.actionsnightmare);
+    Unique CaerBlaiddWolfpacksDen = new Unique("Caer Blaidd, Wolfpack's Den", 20, temp, R.drawable.caerblaiddwolfpacksden);
+    Unique DeathandTaxes = new Unique("Death and Taxes", 20, temp, R.drawable.deathandtaxes);
+    Unique DoryanisMachinarium = new Unique("Doryani's Machinarium", 20, temp, R.drawable.doryannismachinarium);
+    Unique HallofGrandmasters = new Unique("Hall of Grandmasters", 20, temp, R.drawable.hallofgrandmasters);
+    Unique HallowedGround = new Unique("Hallowed Ground", 20, temp, R.drawable.hallowedground);
+    Unique MaelstromofChaos = new Unique("Maelström of Chaos", 20, temp, R.drawable.maelstormofchaos);
+    Unique MaoKun = new Unique("Mao Kun", 20, temp, R.drawable.maokun);
+    Unique ObasCursedTrove = new Unique("Oba's Cursed Trove", 20, temp, R.drawable.obascursedtrove);
+    Unique OlmecsSanctum = new Unique("Olmec's Sanctum", 20, temp, R.drawable.olmecssanctum);
+    Unique PillarsofArun = new Unique("Pillars of Arun", 20, temp, R.drawable.pillarsofarun);
+    Unique PoorjoysAsylum = new Unique("Poorjoy's Asylum", 20, temp, R.drawable.poorjoysasylum);
+    Unique TheBeachheadOne = new Unique("The Beachhead (High Tier)", 20, temp, R.drawable.thebeachheadone);
+    Unique TheBeachheadTwo = new Unique("The Beachhead (Low Tier)", 20, temp, R.drawable.thebeachheadtwo);
+    Unique TheBeachheadThree = new Unique("The Beachhead (Mid Tier)", 20, temp, R.drawable.thebeachheadthree);
+    Unique TheCowardsTrial = new Unique("The Coward's Trial", 20, temp, R.drawable.thecowardstrial);
+    Unique ThePerandusManor = new Unique("The Perandus Manor", 20, temp, R.drawable.theperandusmanor);
+    Unique ThePutridCloister = new Unique("The Putrid Cloister", 20, temp, R.drawable.theputridcloister);
+    Unique TheTwilightTemple = new Unique("The Twilight Temple", 20, temp, R.drawable.thetwilighttemple);
+    Unique TheVinktarSquare = new Unique("The Vinktar Square", 20, temp, R.drawable.thevinktarsquare);
+    Unique VaultsofAtziri = new Unique("Vaults of Atziri", 20, temp, R.drawable.vaultsofatziri);
+    Unique WhakawairuaTuahu = new Unique("Whakawairua Tuahu", 20, temp, R.drawable.whakawairuatuahu);
 
 
 
@@ -2423,15 +1997,184 @@ private void setUp(){
     allUniques.add(Twyzel);
     allUniques.add(VoidBattery);
 
+    allUniques.add(BloodoftheKarui);
+    allUniques.add(DoedresElixir);
+    allUniques.add(LaviangasSpirit);
+    allUniques.add(ZerphisLastBreath);
+    allUniques.add(DivinationDistillate);
+    allUniques.add(TheWrithingJar);
+    allUniques.add(AtzirisPromise);
+    allUniques.add(CoruscatingElixir);
+    allUniques.add(DyingSun);
+    allUniques.add(ForbiddenTaste);
+    allUniques.add(KiarasDetermination);
+    allUniques.add(LionsRoar);
+    allUniques.add(Rotgut);
+    allUniques.add(RumisConcoction);
+    allUniques.add(SinsRebirth);
+    allUniques.add(SoulCatcher);
+    allUniques.add(SoulRipper);
+    allUniques.add(TasteofHate);
+    allUniques.add(TheOverflowingChalice);
+    allUniques.add(TheSorrowoftheDivine);
+    allUniques.add(TheWiseOak);
+    allUniques.add(VesselofVinktarOne);
+    allUniques.add(VesselofVinktarTwo);
+    allUniques.add(VesselofVinktarThree);
+    allUniques.add(VesselofVinktarFour);
+    allUniques.add(WitchfireBrew);
 
+    allUniques.add(AnatomicalKnowledge);
+    allUniques.add(Apparitions);
+    allUniques.add(AssassinsHaste);
+    allUniques.add(Brawn);
+    allUniques.add(BruteForceSolution);
+    allUniques.add(CarefulPlanning);
+    allUniques.add(CheapConstruction);
+    allUniques.add(ClearMind);
+    allUniques.add(CoatedShrapnel);
+    allUniques.add(ColdSteel);
+    allUniques.add(CollateralDamage);
+    allUniques.add(CombatFocusOne);
+    allUniques.add(CombatFocusTwo);
+    allUniques.add(CombatFocusThree);
+    allUniques.add(ConquerorsEfficiency);
+    allUniques.add(ConquerorsLongevity);
+    allUniques.add(ConquerorsPotency);
+    allUniques.add(DeadReckoning);
+    allUniques.add(EfficientTraining);
+    allUniques.add(EldritchKnowledge);
+    allUniques.add(EmperorsCunning);
+    allUniques.add(EmperorsMastery);
+    allUniques.add(EmperorsMight);
+    allUniques.add(EmperorsWit);
+    allUniques.add(EnergisedArmour);
+    allUniques.add(EnergyFromWithin);
+    allUniques.add(FertileMind);
+    allUniques.add(FightforSurvival);
+    allUniques.add(Fireborn);
+    allUniques.add(FirstSnow);
+    allUniques.add(FluidMotion);
+    allUniques.add(FortifiedLegion);
+    allUniques.add(FragileBloom);
+    allUniques.add(FromDust);
+    allUniques.add(FrozenTrail);
+    allUniques.add(GrandSpectrumOne);
+    allUniques.add(GrandSpectrumTwo);
+    allUniques.add(GrandSpectrumThree);
+    allUniques.add(GrowingAgony);
+    allUniques.add(HairTrigger);
+    allUniques.add(HazardousResearch);
+    allUniques.add(HealthyMind);
+    allUniques.add(HiddenPotential);
+    allUniques.add(Hotfooted);
+    allUniques.add(Inertia);
+    allUniques.add(Inevitability);
+    allUniques.add(InspiredLearning);
+    allUniques.add(IntuitiveLeap);
+    allUniques.add(IzarosTurmoil);
+    allUniques.add(LioneyesFall);
+    allUniques.add(MaliciousIntent);
+    allUniques.add(MantraofFlames);
+    allUniques.add(MartialArtistry);
+    allUniques.add(MightandInfluence);
+    allUniques.add(MightinAllForms);
+    allUniques.add(MightoftheMeek);
+    allUniques.add(OmenontheWinds);
+    allUniques.add(OverwhelmingOdds);
+    allUniques.add(PitchDarkness);
+    allUniques.add(PoachersAim);
+    allUniques.add(PrimordialEminence);
+    allUniques.add(PrimordialHarmony);
+    allUniques.add(PrimordialMight);
+    allUniques.add(Pugilist);
+    allUniques.add(PureTalent);
+    allUniques.add(RainofSplinters);
+    allUniques.add(RapidExpansion);
+    allUniques.add(RecklessDefence);
+    allUniques.add(RingofBlades);
+    allUniques.add(RollingFlames);
+    allUniques.add(ShatteredChains);
+    allUniques.add(SoulsWick);
+    allUniques.add(SpireofStone);
+    allUniques.add(SpiritGuards);
+    allUniques.add(SpiritedResponse);
+    allUniques.add(SpreadingRot);
+    allUniques.add(StaticElectricity);
+    allUniques.add(SteelSpirit);
+    allUniques.add(SuddenIgnition);
+    allUniques.add(SurvivalInstincts);
+    allUniques.add(SurvivalSecrets);
+    allUniques.add(SurvivalSkills);
+    allUniques.add(TemperedFlesh);
+    allUniques.add(TemperedMind);
+    allUniques.add(TemperedSpirit);
+    allUniques.add(TheAnimaStone);
+    allUniques.add(TheBlueDream);
+    allUniques.add(TheBlueNightmare);
+    allUniques.add(TheGoldenRule);
+    allUniques.add(TheGreenDream);
+    allUniques.add(TheGreenNightmare);
+    allUniques.add(TheLongWinter);
+    allUniques.add(TheRedDream);
+    allUniques.add(TheRedNightmare);
+    allUniques.add(TheVigil);
+    allUniques.add(ToDust);
+    allUniques.add(TranscendentFlesh);
+    allUniques.add(TranscendentMind);
+    allUniques.add(TranscendentSpirit);
+    allUniques.add(UnendingHunger);
+    allUniques.add(UnnaturalInstinct);
+    allUniques.add(UnstablePayload);
+    allUniques.add(ViolentDead);
+    allUniques.add(VolleyFire);
+    allUniques.add(WarlordsReach);
+    allUniques.add(WatchersEye);
+    allUniques.add(WeightoftheEmpire);
+    allUniques.add(Wildfire);
+    allUniques.add(WinterBurial);
+    allUniques.add(WintersBounty);
 
+    allUniques.add(AncientWaystones);
+    allUniques.add(AtzirisReign);
+    allUniques.add(BloodSacrifice);
+    allUniques.add(BrittleBarrier);
+    allUniques.add(ChillofCorruption);
+    allUniques.add(Combustibles);
+    allUniques.add(CorruptedEnergy);
+    allUniques.add(FeveredMind);
+    allUniques.add(Fragility);
+    allUniques.add(HungryAbyss);
+    allUniques.add(MutatedGrowth);
+    allUniques.add(Pacifism);
+    allUniques.add(Powerlessness);
+    allUniques.add(SacrificialHarvest);
+    allUniques.add(SelfFlagellation);
+    allUniques.add(VaalSentencing);
+    allUniques.add(WeightofSin);
 
-
-
-
-
-
-
+    allUniques.add(ActonsNightmare);
+    allUniques.add(CaerBlaiddWolfpacksDen);
+    allUniques.add(DeathandTaxes);
+    allUniques.add(DoryanisMachinarium);
+    allUniques.add(HallofGrandmasters);
+    allUniques.add(HallowedGround);
+    allUniques.add(MaelstromofChaos);
+    allUniques.add(MaoKun);
+    allUniques.add(ObasCursedTrove);
+    allUniques.add(OlmecsSanctum);
+    allUniques.add(PillarsofArun);
+    allUniques.add(PoorjoysAsylum);
+    allUniques.add(TheBeachheadOne);
+    allUniques.add(TheBeachheadTwo);
+    allUniques.add(TheBeachheadThree);
+    allUniques.add(TheCowardsTrial);
+    allUniques.add(ThePerandusManor);
+    allUniques.add(ThePutridCloister);
+    allUniques.add(TheTwilightTemple);
+    allUniques.add(TheVinktarSquare);
+    allUniques.add(VaultsofAtziri);
+    allUniques.add(WhakawairuaTuahu);
 
     tempList = new ArrayList<>();
     tempList = (ArrayList<Unique>) allUniques.clone();
