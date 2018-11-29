@@ -20,12 +20,12 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button all,cat,search,myUniq,amulets,belts,rings,quivers;
+    private Button all,cat,search,myUniq,amulets,belts,rings,quivers,body,boots,gloves,helmets,shields,axes,bows,claws,daggers,fishing,maces,staves,swords,wands,flasks,jewels,maps,access,armour,weapons;
     private ImageView display,searchdisplay;
     private AutoCompleteTextView search_bar;
     private ArrayAdapter search_adapter;
     private int counter;
-    private ArrayList<Unique> allUniques, tempList;
+    private ArrayList<Unique> allUniques, tempList,savedList;
 
 
     @Override
@@ -52,6 +52,29 @@ public class MainActivity extends AppCompatActivity {
                 belts.setVisibility(View.GONE);
                 rings.setVisibility(View.GONE);
                 quivers.setVisibility(View.GONE);
+                body.setVisibility(View.GONE);
+                boots.setVisibility(View.GONE);
+                gloves.setVisibility(View.GONE);
+                helmets.setVisibility(View.GONE);
+                shields.setVisibility(View.GONE);
+                axes.setVisibility(View.GONE);
+                bows.setVisibility(View.GONE);
+                claws.setVisibility(View.GONE);
+                daggers.setVisibility(View.GONE);
+                fishing.setVisibility(View.GONE);
+                maces.setVisibility(View.GONE);
+                staves.setVisibility(View.GONE);
+                swords.setVisibility(View.GONE);
+                wands.setVisibility(View.GONE);
+                flasks.setVisibility(View.GONE);
+                jewels.setVisibility(View.GONE);
+                maps.setVisibility(View.GONE);
+                access.setVisibility(View.GONE);
+                armour.setVisibility(View.GONE);
+                weapons.setVisibility(View.GONE);
+
+
+
                 counter = 0;
                 tempList = null;
                 tempList = (ArrayList<Unique>) allUniques.clone();
@@ -72,7 +95,26 @@ public class MainActivity extends AppCompatActivity {
         belts = findViewById(R.id.belt_but);
         rings = findViewById(R.id.ring_but);
         quivers = findViewById(R.id.quiver_but);
-
+        body = findViewById(R.id.body_but);
+        boots = findViewById(R.id.boots_but);
+        gloves = findViewById(R.id.gloves_but);
+        helmets = findViewById(R.id.helmets_but);
+        shields = findViewById(R.id.shields_but);
+        axes = findViewById(R.id.axes_but);
+        bows = findViewById(R.id.bows_but);
+        claws = findViewById(R.id.claws_but);
+        daggers = findViewById(R.id.daggers_but);
+        fishing = findViewById(R.id.fishingrod_but);
+        maces = findViewById(R.id.maces_but);
+        staves = findViewById(R.id.staves_but);
+        swords = findViewById(R.id.swords_but);
+        wands = findViewById(R.id.wands_but);
+        flasks = findViewById(R.id.flasks_but);
+        jewels = findViewById(R.id.jewels_but);
+        maps = findViewById(R.id.maps_but);
+        access = findViewById(R.id.accessories_but);
+        armour = findViewById(R.id.armour_but);
+        weapons = findViewById(R.id.weapons_but);
         counter = 0;
         setUp();
 
@@ -88,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
+//Category set up
         cat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -96,6 +138,25 @@ public class MainActivity extends AppCompatActivity {
                 cat.setVisibility(View.GONE);
                 search.setVisibility(View.GONE);
                 myUniq.setVisibility(View.GONE);
+
+                access.setVisibility(View.VISIBLE);
+                armour.setVisibility(View.VISIBLE);
+                weapons.setVisibility(View.VISIBLE);
+                flasks.setVisibility(View.VISIBLE);
+                jewels.setVisibility(View.VISIBLE);
+                maps.setVisibility(View.VISIBLE);
+            }
+        });
+
+        access.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                access.setVisibility(View.GONE);
+                armour.setVisibility(View.GONE);
+                weapons.setVisibility(View.GONE);
+                flasks.setVisibility(View.GONE);
+                jewels.setVisibility(View.GONE);
+                maps.setVisibility(View.GONE);
 
                 amulets.setVisibility(View.VISIBLE);
                 belts.setVisibility(View.VISIBLE);
@@ -113,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
                 quivers.setVisibility(View.GONE);
 
                 for(int i = 0; i< tempList.size(); i++){
-                    if(tempList.get(i).getCatagory() != 0 ){
+                    if(tempList.get(i).getCategory() != 0 ){
                         tempList.remove(i);
                         i--;
                     }
@@ -132,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
                 quivers.setVisibility(View.GONE);
 
                 for(int i = 0; i< tempList.size(); i++){
-                    if(tempList.get(i).getCatagory() != 1 ){
+                    if(tempList.get(i).getCategory() != 1 ){
                         tempList.remove(i);
                         i--;
                     }
@@ -150,7 +211,7 @@ public class MainActivity extends AppCompatActivity {
                 quivers.setVisibility(View.GONE);
 
                 for(int i = 0; i< tempList.size(); i++){
-                    if(tempList.get(i).getCatagory() != 2 ){
+                    if(tempList.get(i).getCategory() != 2 ){
                         tempList.remove(i);
                         i--;
                     }
@@ -168,7 +229,7 @@ public class MainActivity extends AppCompatActivity {
                 quivers.setVisibility(View.GONE);
 
                 for(int i = 0; i< tempList.size(); i++){
-                    if(tempList.get(i).getCatagory() != 3 ){
+                    if(tempList.get(i).getCategory() != 3 ){
                         tempList.remove(i);
                         i--;
                     }
@@ -178,10 +239,447 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        armour.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                access.setVisibility(View.GONE);
+                armour.setVisibility(View.GONE);
+                weapons.setVisibility(View.GONE);
+                flasks.setVisibility(View.GONE);
+                jewels.setVisibility(View.GONE);
+                maps.setVisibility(View.GONE);
+
+                body.setVisibility(View.VISIBLE);
+                boots.setVisibility(View.VISIBLE);
+                gloves.setVisibility(View.VISIBLE);
+                helmets.setVisibility(View.VISIBLE);
+                shields.setVisibility(View.VISIBLE);
+            }
+        });
+
+        body.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                body.setVisibility(View.GONE);
+                boots.setVisibility(View.GONE);
+                gloves.setVisibility(View.GONE);
+                helmets.setVisibility(View.GONE);
+                shields.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 4 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        boots.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                body.setVisibility(View.GONE);
+                boots.setVisibility(View.GONE);
+                gloves.setVisibility(View.GONE);
+                helmets.setVisibility(View.GONE);
+                shields.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 5 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        gloves.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                body.setVisibility(View.GONE);
+                boots.setVisibility(View.GONE);
+                gloves.setVisibility(View.GONE);
+                helmets.setVisibility(View.GONE);
+                shields.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 6 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        helmets.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                body.setVisibility(View.GONE);
+                boots.setVisibility(View.GONE);
+                gloves.setVisibility(View.GONE);
+                helmets.setVisibility(View.GONE);
+                shields.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 7 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        shields.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                body.setVisibility(View.GONE);
+                boots.setVisibility(View.GONE);
+                gloves.setVisibility(View.GONE);
+                helmets.setVisibility(View.GONE);
+                shields.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 8 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        weapons.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                access.setVisibility(View.GONE);
+                armour.setVisibility(View.GONE);
+                weapons.setVisibility(View.GONE);
+                flasks.setVisibility(View.GONE);
+                jewels.setVisibility(View.GONE);
+                maps.setVisibility(View.GONE);
+
+                axes.setVisibility(View.VISIBLE);
+                bows.setVisibility(View.VISIBLE);
+                claws.setVisibility(View.VISIBLE);
+                daggers.setVisibility(View.VISIBLE);
+                fishing.setVisibility(View.VISIBLE);
+                maces.setVisibility(View.VISIBLE);
+                staves.setVisibility(View.VISIBLE);
+                swords.setVisibility(View.VISIBLE);
+                wands.setVisibility(View.VISIBLE);
+            }
+        });
+
+        axes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                axes.setVisibility(View.GONE);
+                bows.setVisibility(View.GONE);
+                claws.setVisibility(View.GONE);
+                daggers.setVisibility(View.GONE);
+                fishing.setVisibility(View.GONE);
+                maces.setVisibility(View.GONE);
+                staves.setVisibility(View.GONE);
+                swords.setVisibility(View.GONE);
+                wands.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 9 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        bows.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                axes.setVisibility(View.GONE);
+                bows.setVisibility(View.GONE);
+                claws.setVisibility(View.GONE);
+                daggers.setVisibility(View.GONE);
+                fishing.setVisibility(View.GONE);
+                maces.setVisibility(View.GONE);
+                staves.setVisibility(View.GONE);
+                swords.setVisibility(View.GONE);
+                wands.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 10 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        claws.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                axes.setVisibility(View.GONE);
+                bows.setVisibility(View.GONE);
+                claws.setVisibility(View.GONE);
+                daggers.setVisibility(View.GONE);
+                fishing.setVisibility(View.GONE);
+                maces.setVisibility(View.GONE);
+                staves.setVisibility(View.GONE);
+                swords.setVisibility(View.GONE);
+                wands.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 11 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        daggers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                axes.setVisibility(View.GONE);
+                bows.setVisibility(View.GONE);
+                claws.setVisibility(View.GONE);
+                daggers.setVisibility(View.GONE);
+                fishing.setVisibility(View.GONE);
+                maces.setVisibility(View.GONE);
+                staves.setVisibility(View.GONE);
+                swords.setVisibility(View.GONE);
+                wands.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 12 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        fishing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                axes.setVisibility(View.GONE);
+                bows.setVisibility(View.GONE);
+                claws.setVisibility(View.GONE);
+                daggers.setVisibility(View.GONE);
+                fishing.setVisibility(View.GONE);
+                maces.setVisibility(View.GONE);
+                staves.setVisibility(View.GONE);
+                swords.setVisibility(View.GONE);
+                wands.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 13 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        maces.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                axes.setVisibility(View.GONE);
+                bows.setVisibility(View.GONE);
+                claws.setVisibility(View.GONE);
+                daggers.setVisibility(View.GONE);
+                fishing.setVisibility(View.GONE);
+                maces.setVisibility(View.GONE);
+                staves.setVisibility(View.GONE);
+                swords.setVisibility(View.GONE);
+                wands.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 14 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        staves.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                axes.setVisibility(View.GONE);
+                bows.setVisibility(View.GONE);
+                claws.setVisibility(View.GONE);
+                daggers.setVisibility(View.GONE);
+                fishing.setVisibility(View.GONE);
+                maces.setVisibility(View.GONE);
+                staves.setVisibility(View.GONE);
+                swords.setVisibility(View.GONE);
+                wands.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 15 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        swords.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                axes.setVisibility(View.GONE);
+                bows.setVisibility(View.GONE);
+                claws.setVisibility(View.GONE);
+                daggers.setVisibility(View.GONE);
+                fishing.setVisibility(View.GONE);
+                maces.setVisibility(View.GONE);
+                staves.setVisibility(View.GONE);
+                swords.setVisibility(View.GONE);
+                wands.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 16 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        wands.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                axes.setVisibility(View.GONE);
+                bows.setVisibility(View.GONE);
+                claws.setVisibility(View.GONE);
+                daggers.setVisibility(View.GONE);
+                fishing.setVisibility(View.GONE);
+                maces.setVisibility(View.GONE);
+                staves.setVisibility(View.GONE);
+                swords.setVisibility(View.GONE);
+                wands.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 17 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        flasks.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                access.setVisibility(View.GONE);
+                armour.setVisibility(View.GONE);
+                weapons.setVisibility(View.GONE);
+                flasks.setVisibility(View.GONE);
+                jewels.setVisibility(View.GONE);
+                maps.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 18 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        jewels.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                access.setVisibility(View.GONE);
+                armour.setVisibility(View.GONE);
+                weapons.setVisibility(View.GONE);
+                flasks.setVisibility(View.GONE);
+                jewels.setVisibility(View.GONE);
+                maps.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 19 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        maps.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                access.setVisibility(View.GONE);
+                armour.setVisibility(View.GONE);
+                weapons.setVisibility(View.GONE);
+                flasks.setVisibility(View.GONE);
+                jewels.setVisibility(View.GONE);
+                maps.setVisibility(View.GONE);
+
+                for(int i = 0; i< tempList.size(); i++){
+                    if(tempList.get(i).getCategory() != 20 ){
+                        tempList.remove(i);
+                        i--;
+                    }
+                }
+                display.setImageResource(tempList.get(0).getImage_Resource());
+                display.setVisibility(View.VISIBLE);
+            }
+        });
+
+        myUniq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(savedList.size() != 0) {
+                    all.setVisibility(View.GONE);
+                    cat.setVisibility(View.GONE);
+                    search.setVisibility(View.GONE);
+                    myUniq.setVisibility(View.GONE);
+
+                    tempList = (ArrayList<Unique>) savedList.clone();
+                    display.setImageResource(tempList.get(0).getImage_Resource());
+                    display.setVisibility(View.VISIBLE);
+                }else{
+                    Toast.makeText(MainActivity.this, "Double tap items to save here.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
         display.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
+
             public void onSwipeTop() {
-                Toast.makeText(MainActivity.this, "top", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "top", Toast.LENGTH_SHORT).show();
             }
             public void onSwipeRight() {
                 if(counter > 0) {
@@ -192,7 +690,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
             public void onSwipeLeft() {
-                if(counter < tempList.size()) {
+                if(counter < tempList.size()-1) {
                     counter++;
                     display.setImageResource(tempList.get(counter).getImage_Resource());
                 }else{
@@ -200,10 +698,22 @@ public class MainActivity extends AppCompatActivity {
                 }
                 }
             public void onSwipeBottom() {
-                Toast.makeText(MainActivity.this, "bottom", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "bottom", Toast.LENGTH_SHORT).show();
+            }
+
+            public void onDT() {
+                if(savedList.contains(tempList.get(counter))){
+                    savedList.remove(tempList.get(counter));
+                    Toast.makeText(MainActivity.this, "Removed", Toast.LENGTH_SHORT).show();
+                }else{
+                    savedList.add(tempList.get(counter));
+                    Toast.makeText(MainActivity.this, "Saved", Toast.LENGTH_SHORT).show();
+                }
             }
 
         });
+
+
 
         search_bar.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
@@ -218,11 +728,31 @@ public class MainActivity extends AppCompatActivity {
                     j++;
                 }
                 searchdisplay.setImageResource(tempList.get(j).getImage_Resource());
+                counter = j;
                 search_bar.dismissDropDown();
                 search_bar.setVisibility(View.GONE);
             }
         });
+        searchdisplay.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
 
+            public void onSwipeTop() {
+            }
+            public void onSwipeRight() {
+            }
+            public void onSwipeLeft() {
+            }
+            public void onSwipeBottom() {
+            }
+            public void onDT() {
+                if(savedList.contains(tempList.get(counter))){
+                    savedList.remove(tempList.get(counter));
+                    Toast.makeText(MainActivity.this, "Removed", Toast.LENGTH_SHORT).show();
+                }else{
+                    savedList.add(tempList.get(counter));
+                    Toast.makeText(MainActivity.this, "Saved", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -262,13 +792,7 @@ private void setUp(){
 
             //Amulets - code 0
             ArrayList<String> temp = new ArrayList<>();
-            temp.add("Maximum Life");
-            temp.add("Fire Resistance");
-            temp.add("Life Regenerated");
-            temp.add("Evasion Rating");
             Unique Aruku = new Unique("Aruku Tiki", 0, temp, R.drawable.arakutiki);
-            temp.clear();
-            temp.add("All Attributes");
             Unique Astra = new Unique("Astramentis", 0, temp, R.drawable.astramentis);
             Unique AtziriFoi = new Unique("Atziri's Foible", 0, temp, R.drawable.atzirifoible);
             Unique AulUprising = new Unique("Aul's Uprising", 0, temp, R.drawable.aulsuprising);
@@ -2182,6 +2706,9 @@ private void setUp(){
     for(int i = 0; i< allUniques.size(); i++){
         names[i] = allUniques.get(i).getName();
     }
+
+    savedList = new ArrayList<>();
+
     search_adapter = new ArrayAdapter<String>(this,android.R.layout.select_dialog_item, names);
     search_bar.setThreshold(3);
     search_bar.setAdapter(search_adapter);
