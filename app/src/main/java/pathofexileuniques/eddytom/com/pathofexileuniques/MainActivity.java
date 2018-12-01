@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -16,6 +17,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -705,9 +712,11 @@ public class MainActivity extends AppCompatActivity {
                 if(savedList.contains(tempList.get(counter))){
                     savedList.remove(tempList.get(counter));
                     Toast.makeText(MainActivity.this, "Removed", Toast.LENGTH_SHORT).show();
+                    writeToFile(MainActivity.this);
                 }else{
                     savedList.add(tempList.get(counter));
                     Toast.makeText(MainActivity.this, "Saved", Toast.LENGTH_SHORT).show();
+                    writeToFile(MainActivity.this);
                 }
             }
 
@@ -745,11 +754,14 @@ public class MainActivity extends AppCompatActivity {
             }
             public void onDT() {
                 if(savedList.contains(tempList.get(counter))){
-                    savedList.remove(tempList.get(counter));
                     Toast.makeText(MainActivity.this, "Removed", Toast.LENGTH_SHORT).show();
+                    savedList.remove(tempList.get(counter));
+                    writeToFile(MainActivity.this);
+
                 }else{
-                    savedList.add(tempList.get(counter));
                     Toast.makeText(MainActivity.this, "Saved", Toast.LENGTH_SHORT).show();
+                    savedList.add(tempList.get(counter));
+                    writeToFile(MainActivity.this);
                 }
             }
         });
@@ -1941,8 +1953,6 @@ private void setUp(){
     allUniques.add(Voidheart);
     allUniques.add(Winterweave);
 
-
-
     allUniques.add(AsphyxiasWrath);
     allUniques.add(Blackgleam);
     allUniques.add(Cragfall);
@@ -1959,8 +1969,6 @@ private void setUp(){
     allUniques.add(TheFracturingSpinner);
     allUniques.add(TheSignalFire);
     allUniques.add(Voidfletcher);
-
-
 
     allUniques.add(Bramblejack);
     allUniques.add(CraiceannsCarapace);
@@ -2702,18 +2710,70 @@ private void setUp(){
 
     tempList = new ArrayList<>();
     tempList = (ArrayList<Unique>) allUniques.clone();
+    savedList = new ArrayList<>();
+    String[] savedIndices = readFromFile(MainActivity.this).split(" ");
+
     String[] names = new String[allUniques.size()];
     for(int i = 0; i< allUniques.size(); i++){
         names[i] = allUniques.get(i).getName();
+        allUniques.get(i).setIndex(i);
     }
 
-    savedList = new ArrayList<>();
-
+    for(int j =0; j < savedIndices.length; j++){
+        try{
+                if (savedIndices[j].matches("\\d+")) {
+                        savedList.add(allUniques.get(Integer.parseInt(savedIndices[j])));
+                }
+        }catch(NumberFormatException e){Log.e("Exception", "Tried to parse non integer: " + e.toString());}
+    }
     search_adapter = new ArrayAdapter<String>(this,android.R.layout.select_dialog_item, names);
-    search_bar.setThreshold(3);
+    search_bar.setThreshold(2);
     search_bar.setAdapter(search_adapter);
 
-
 }
+
+
+    private void writeToFile(Context context) {
+        try {
+            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(context.openFileOutput("saveditems.txt", Context.MODE_PRIVATE));
+            for(int i= 0;i<savedList.size();i++){
+                outputStreamWriter.write(savedList.get(i).getIndex()+" ");
+            }
+            outputStreamWriter.close();
+        }
+        catch (IOException e) {
+            Log.e("Exception", "File write failed: " + e.toString());
+        }
+    }
+
+    private String readFromFile(Context context) {
+
+        String ret = "";
+
+        try {
+            InputStream inputStream = context.openFileInput("saveditems.txt");
+
+            if ( inputStream != null ) {
+                InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+                BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+                String receiveString = "";
+                StringBuilder stringBuilder = new StringBuilder();
+
+                while ( (receiveString = bufferedReader.readLine()) != null ) {
+                    stringBuilder.append(receiveString);
+                }
+
+                inputStream.close();
+                ret = stringBuilder.toString();
+            }
+        }
+        catch (FileNotFoundException e) {
+            Log.e("login activity", "File not found: " + e.toString());
+        } catch (IOException e) {
+            Log.e("login activity", "Can not read file: " + e.toString());
+        }
+
+        return ret;
+    }
 }
 
