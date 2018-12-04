@@ -31,71 +31,46 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5675">
-              <caret line="153" column="49" lean-forward="false" selection-start-line="153" selection-start-column="49" selection-end-line="153" selection-end-column="49" />
+            <state relative-caret-position="26547">
+              <caret line="2761" column="0" lean-forward="true" selection-start-line="2761" selection-start-column="0" selection-end-line="2761" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1715#3772#0" expanded="true" />
-                <element signature="e#3771#3772#0" expanded="true" />
-                <element signature="e#5338#5702#0" expanded="true" />
-                <element signature="e#5701#5702#0" expanded="true" />
-                <element signature="e#5754#6375#0" expanded="true" />
-                <element signature="e#6374#6375#0" expanded="true" />
-                <element signature="e#6413#7033#0" expanded="true" />
-                <element signature="e#7032#7033#0" expanded="true" />
-                <element signature="e#7072#7751#0" expanded="true" />
-                <element signature="e#7750#7751#0" expanded="true" />
-                <element signature="e#7788#8467#0" expanded="true" />
-                <element signature="e#8466#8467#0" expanded="true" />
-                <element signature="e#8503#9182#0" expanded="true" />
-                <element signature="e#9181#9182#0" expanded="true" />
-                <element signature="e#9220#9899#0" expanded="true" />
-                <element signature="e#9898#9899#0" expanded="true" />
-                <element signature="e#9937#10608#0" expanded="true" />
-                <element signature="e#10607#10608#0" expanded="true" />
-                <element signature="e#10644#11371#0" expanded="true" />
-                <element signature="e#11370#11371#0" expanded="true" />
-                <element signature="e#11408#12135#0" expanded="true" />
-                <element signature="e#12134#12135#0" expanded="true" />
-                <element signature="e#12173#12900#0" expanded="true" />
-                <element signature="e#12899#12900#0" expanded="true" />
-                <element signature="e#12939#13666#0" expanded="true" />
-                <element signature="e#13665#13666#0" expanded="true" />
-                <element signature="e#13705#14432#0" expanded="true" />
-                <element signature="e#14431#14432#0" expanded="true" />
-                <element signature="e#14471#15346#0" expanded="true" />
-                <element signature="e#15345#15346#0" expanded="true" />
-                <element signature="e#15382#16301#0" expanded="true" />
-                <element signature="e#16300#16301#0" expanded="true" />
-                <element signature="e#16337#17257#0" expanded="true" />
-                <element signature="e#17256#17257#0" expanded="true" />
-                <element signature="e#17294#18214#0" expanded="true" />
-                <element signature="e#18213#18214#0" expanded="true" />
-                <element signature="e#18253#19173#0" expanded="true" />
-                <element signature="e#19172#19173#0" expanded="true" />
-                <element signature="e#19212#20132#0" expanded="true" />
-                <element signature="e#20131#20132#0" expanded="true" />
-                <element signature="e#20169#21089#0" expanded="true" />
-                <element signature="e#21088#21089#0" expanded="true" />
-                <element signature="e#21127#22047#0" expanded="true" />
-                <element signature="e#22046#22047#0" expanded="true" />
-                <element signature="e#22085#23005#0" expanded="true" />
-                <element signature="e#23004#23005#0" expanded="true" />
-                <element signature="e#23042#23962#0" expanded="true" />
-                <element signature="e#23961#23962#0" expanded="true" />
-                <element signature="e#24000#24776#0" expanded="true" />
-                <element signature="e#24775#24776#0" expanded="true" />
-                <element signature="e#24814#25590#0" expanded="true" />
-                <element signature="e#25589#25590#0" expanded="true" />
-                <element signature="e#25626#26402#0" expanded="true" />
-                <element signature="e#26401#26402#0" expanded="true" />
-                <element signature="e#26440#27177#0" expanded="true" />
-                <element signature="e#27176#27177#0" expanded="true" />
-                <element signature="e#28886#29734#0" expanded="true" />
-                <element signature="e#29733#29734#0" expanded="true" />
-                <element signature="e#30648#31014#0" expanded="true" />
-                <element signature="e#31013#31014#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HtmlSync.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/HtmlSync.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PoE Goods.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/PoE Goods.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,71 +78,12 @@
       <file leaf-file-name="Unique.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/Unique.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            <state relative-caret-position="16">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="6256">
-              <caret line="391" column="33" lean-forward="false" selection-start-line="391" selection-start-column="33" selection-end-line="391" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="42" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -180,6 +96,33 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>al</find>
+      <find>1</find>
+      <find>id</find>
+      <find>kaoms</find>
+      <find>search</find>
+      <find>kaom</find>
+      <find>text</find>
+      <find>name</find>
+      <find>noth</find>
+      <find>input</find>
+      <find>2</find>
+      <find>option value</find>
+      <find>option value=&quot;&quot;</find>
+      <find>map</find>
+      <find>Kaom</find>
+      <find>class=&quot;long&quot;</find>
+      <find>state</find>
+      <find>&lt;span&gt;</find>
+      <find>vali</find>
+      <find>temp</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot; &quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2207,12 +2150,19 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/round_but.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/OnSwipeTouchListener.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/AsyncTask.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/HtmlSync.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/PoE Goods.html" />
         <option value="$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/Unique.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/MainActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="285" />
+    <option name="y" value="103" />
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
@@ -2236,70 +2186,26 @@
           <expand>
             <path>
               <item name="PathofExileUniques" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="PathofExileUniques" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="PathofExileUniques" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="pathofexileuniques" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PathofExileUniques" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="pathofexileuniques" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="eddytom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PathofExileUniques" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="pathofexileuniques" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="eddytom" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PathofExileUniques" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="pathofexileuniques" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="eddytom" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pathofexileuniques" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PathofExileUniques" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="PathofExileUniques" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
     <property name="device.picker.selection" value="f2ad5a2b" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyFirstApplication" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2495,6 +2401,18 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="PathofExileUniques" />
+      <envs />
+    </configuration>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
@@ -2525,30 +2443,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1088" extended-state="7" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1485623" sideWeight="0.51345754" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10436635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1485623" sideWeight="0.48654243" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945055" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39855072" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31780538" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2558,7 +2475,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19979297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2601,314 +2518,27 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/MainActivity.java</url>
-          <line>84</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/OnSwipeTouchListener.java</url>
           <line>72</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/MainActivity.java</url>
-          <line>718</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/HtmlSync.java</url>
+          <line>35</line>
           <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/MainActivity.java</url>
-          <line>2710</line>
-          <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="19" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="MainActivity">
+        <watch expression="doc" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="76" lean-forward="false" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5457">
-          <caret line="333" column="14" lean-forward="false" selection-start-line="333" selection-start-column="14" selection-end-line="333" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#3772#0" expanded="true" />
-            <element signature="e#3771#3772#0" expanded="true" />
-            <element signature="e#5338#5702#0" expanded="true" />
-            <element signature="e#5701#5702#0" expanded="true" />
-            <element signature="e#5754#6375#0" expanded="true" />
-            <element signature="e#6374#6375#0" expanded="true" />
-            <element signature="e#6413#7033#0" expanded="true" />
-            <element signature="e#7032#7033#0" expanded="true" />
-            <element signature="e#7072#7751#0" expanded="true" />
-            <element signature="e#7750#7751#0" expanded="true" />
-            <element signature="e#7788#8467#0" expanded="true" />
-            <element signature="e#8466#8467#0" expanded="true" />
-            <element signature="e#8503#9182#0" expanded="true" />
-            <element signature="e#9181#9182#0" expanded="true" />
-            <element signature="e#9220#9899#0" expanded="true" />
-            <element signature="e#9898#9899#0" expanded="true" />
-            <element signature="e#9937#10608#0" expanded="true" />
-            <element signature="e#10607#10608#0" expanded="true" />
-            <element signature="e#10644#11371#0" expanded="true" />
-            <element signature="e#11370#11371#0" expanded="true" />
-            <element signature="e#11408#12135#0" expanded="true" />
-            <element signature="e#12134#12135#0" expanded="true" />
-            <element signature="e#12173#12900#0" expanded="true" />
-            <element signature="e#12899#12900#0" expanded="true" />
-            <element signature="e#12939#13666#0" expanded="true" />
-            <element signature="e#13665#13666#0" expanded="true" />
-            <element signature="e#13705#14432#0" expanded="true" />
-            <element signature="e#14431#14432#0" expanded="true" />
-            <element signature="e#14471#15346#0" expanded="true" />
-            <element signature="e#15345#15346#0" expanded="true" />
-            <element signature="e#15382#16301#0" expanded="true" />
-            <element signature="e#16300#16301#0" expanded="true" />
-            <element signature="e#16337#17257#0" expanded="true" />
-            <element signature="e#17256#17257#0" expanded="true" />
-            <element signature="e#17294#18214#0" expanded="true" />
-            <element signature="e#18213#18214#0" expanded="true" />
-            <element signature="e#18253#19173#0" expanded="true" />
-            <element signature="e#19172#19173#0" expanded="true" />
-            <element signature="e#19212#20132#0" expanded="true" />
-            <element signature="e#20131#20132#0" expanded="true" />
-            <element signature="e#20169#21089#0" expanded="true" />
-            <element signature="e#21088#21089#0" expanded="true" />
-            <element signature="e#21127#22047#0" expanded="true" />
-            <element signature="e#22046#22047#0" expanded="true" />
-            <element signature="e#22085#23005#0" expanded="true" />
-            <element signature="e#23004#23005#0" expanded="true" />
-            <element signature="e#23042#23962#0" expanded="true" />
-            <element signature="e#23961#23962#0" expanded="true" />
-            <element signature="e#24000#24776#0" expanded="true" />
-            <element signature="e#24775#24776#0" expanded="true" />
-            <element signature="e#24814#25590#0" expanded="true" />
-            <element signature="e#25589#25590#0" expanded="true" />
-            <element signature="e#25626#26402#0" expanded="true" />
-            <element signature="e#26401#26402#0" expanded="true" />
-            <element signature="e#26440#27177#0" expanded="true" />
-            <element signature="e#27176#27177#0" expanded="true" />
-            <element signature="e#28886#29734#0" expanded="true" />
-            <element signature="e#29733#29734#0" expanded="true" />
-            <element signature="e#30648#31014#0" expanded="true" />
-            <element signature="e#31013#31014#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/Unique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/round_but.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="76" lean-forward="false" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#3772#0" expanded="true" />
-            <element signature="e#3771#3772#0" expanded="true" />
-            <element signature="e#5338#5702#0" expanded="true" />
-            <element signature="e#5701#5702#0" expanded="true" />
-            <element signature="e#5754#6375#0" expanded="true" />
-            <element signature="e#6374#6375#0" expanded="true" />
-            <element signature="e#6413#7033#0" expanded="true" />
-            <element signature="e#7032#7033#0" expanded="true" />
-            <element signature="e#7072#7751#0" expanded="true" />
-            <element signature="e#7750#7751#0" expanded="true" />
-            <element signature="e#7788#8467#0" expanded="true" />
-            <element signature="e#8466#8467#0" expanded="true" />
-            <element signature="e#8503#9182#0" expanded="true" />
-            <element signature="e#9181#9182#0" expanded="true" />
-            <element signature="e#9220#9899#0" expanded="true" />
-            <element signature="e#9898#9899#0" expanded="true" />
-            <element signature="e#9937#10608#0" expanded="true" />
-            <element signature="e#10607#10608#0" expanded="true" />
-            <element signature="e#10644#11371#0" expanded="true" />
-            <element signature="e#11370#11371#0" expanded="true" />
-            <element signature="e#11408#12135#0" expanded="true" />
-            <element signature="e#12134#12135#0" expanded="true" />
-            <element signature="e#12173#12900#0" expanded="true" />
-            <element signature="e#12899#12900#0" expanded="true" />
-            <element signature="e#12939#13666#0" expanded="true" />
-            <element signature="e#13665#13666#0" expanded="true" />
-            <element signature="e#13705#14432#0" expanded="true" />
-            <element signature="e#14431#14432#0" expanded="true" />
-            <element signature="e#14471#15346#0" expanded="true" />
-            <element signature="e#15345#15346#0" expanded="true" />
-            <element signature="e#15382#16301#0" expanded="true" />
-            <element signature="e#16300#16301#0" expanded="true" />
-            <element signature="e#16337#17257#0" expanded="true" />
-            <element signature="e#17256#17257#0" expanded="true" />
-            <element signature="e#17294#18214#0" expanded="true" />
-            <element signature="e#18213#18214#0" expanded="true" />
-            <element signature="e#18253#19173#0" expanded="true" />
-            <element signature="e#19172#19173#0" expanded="true" />
-            <element signature="e#19212#20132#0" expanded="true" />
-            <element signature="e#20131#20132#0" expanded="true" />
-            <element signature="e#20169#21089#0" expanded="true" />
-            <element signature="e#21088#21089#0" expanded="true" />
-            <element signature="e#21127#22047#0" expanded="true" />
-            <element signature="e#22046#22047#0" expanded="true" />
-            <element signature="e#22085#23005#0" expanded="true" />
-            <element signature="e#23004#23005#0" expanded="true" />
-            <element signature="e#23042#23962#0" expanded="true" />
-            <element signature="e#23961#23962#0" expanded="true" />
-            <element signature="e#24000#24776#0" expanded="true" />
-            <element signature="e#24775#24776#0" expanded="true" />
-            <element signature="e#24814#25590#0" expanded="true" />
-            <element signature="e#25589#25590#0" expanded="true" />
-            <element signature="e#25626#26402#0" expanded="true" />
-            <element signature="e#26401#26402#0" expanded="true" />
-            <element signature="e#26440#27177#0" expanded="true" />
-            <element signature="e#27176#27177#0" expanded="true" />
-            <element signature="e#28886#29734#0" expanded="true" />
-            <element signature="e#29733#29734#0" expanded="true" />
-            <element signature="e#30648#31014#0" expanded="true" />
-            <element signature="e#31013#31014#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/astramentis.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/Unique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -2924,7 +2554,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -2935,7 +2564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2957,7 +2585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2978,66 +2605,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1715#3772#0" expanded="true" />
-            <element signature="e#3771#3772#0" expanded="true" />
-            <element signature="e#5338#5702#0" expanded="true" />
-            <element signature="e#5701#5702#0" expanded="true" />
-            <element signature="e#5754#6375#0" expanded="true" />
-            <element signature="e#6374#6375#0" expanded="true" />
-            <element signature="e#6413#7033#0" expanded="true" />
-            <element signature="e#7032#7033#0" expanded="true" />
-            <element signature="e#7072#7751#0" expanded="true" />
-            <element signature="e#7750#7751#0" expanded="true" />
-            <element signature="e#7788#8467#0" expanded="true" />
-            <element signature="e#8466#8467#0" expanded="true" />
-            <element signature="e#8503#9182#0" expanded="true" />
-            <element signature="e#9181#9182#0" expanded="true" />
-            <element signature="e#9220#9899#0" expanded="true" />
-            <element signature="e#9898#9899#0" expanded="true" />
-            <element signature="e#9937#10608#0" expanded="true" />
-            <element signature="e#10607#10608#0" expanded="true" />
-            <element signature="e#10644#11371#0" expanded="true" />
-            <element signature="e#11370#11371#0" expanded="true" />
-            <element signature="e#11408#12135#0" expanded="true" />
-            <element signature="e#12134#12135#0" expanded="true" />
-            <element signature="e#12173#12900#0" expanded="true" />
-            <element signature="e#12899#12900#0" expanded="true" />
-            <element signature="e#12939#13666#0" expanded="true" />
-            <element signature="e#13665#13666#0" expanded="true" />
-            <element signature="e#13705#14432#0" expanded="true" />
-            <element signature="e#14431#14432#0" expanded="true" />
-            <element signature="e#14471#15346#0" expanded="true" />
-            <element signature="e#15345#15346#0" expanded="true" />
-            <element signature="e#15382#16301#0" expanded="true" />
-            <element signature="e#16300#16301#0" expanded="true" />
-            <element signature="e#16337#17257#0" expanded="true" />
-            <element signature="e#17256#17257#0" expanded="true" />
-            <element signature="e#17294#18214#0" expanded="true" />
-            <element signature="e#18213#18214#0" expanded="true" />
-            <element signature="e#18253#19173#0" expanded="true" />
-            <element signature="e#19172#19173#0" expanded="true" />
-            <element signature="e#19212#20132#0" expanded="true" />
-            <element signature="e#20131#20132#0" expanded="true" />
-            <element signature="e#20169#21089#0" expanded="true" />
-            <element signature="e#21088#21089#0" expanded="true" />
-            <element signature="e#21127#22047#0" expanded="true" />
-            <element signature="e#22046#22047#0" expanded="true" />
-            <element signature="e#22085#23005#0" expanded="true" />
-            <element signature="e#23004#23005#0" expanded="true" />
-            <element signature="e#23042#23962#0" expanded="true" />
-            <element signature="e#23961#23962#0" expanded="true" />
-            <element signature="e#24000#24776#0" expanded="true" />
-            <element signature="e#24775#24776#0" expanded="true" />
-            <element signature="e#24814#25590#0" expanded="true" />
-            <element signature="e#25589#25590#0" expanded="true" />
-            <element signature="e#25626#26402#0" expanded="true" />
-            <element signature="e#26401#26402#0" expanded="true" />
-            <element signature="e#26440#27177#0" expanded="true" />
-            <element signature="e#27176#27177#0" expanded="true" />
-            <element signature="e#28886#29734#0" expanded="true" />
-            <element signature="e#29733#29734#0" expanded="true" />
-            <element signature="e#30648#31014#0" expanded="true" />
-            <element signature="e#31013#31014#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3059,8 +2626,8 @@
         <state relative-caret-position="340">
           <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3096,7 +2663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="4676" column="30" lean-forward="false" selection-start-line="4676" selection-start-column="30" selection-end-line="4676" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3128,7 +2694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3136,7 +2701,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3147,7 +2711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3155,7 +2718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3214,199 +2776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="119" column="96" lean-forward="false" selection-start-line="119" selection-start-column="96" selection-end-line="119" selection-end-column="96" />
-          <folding>
-            <marker date="1532745017604" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1532745017604" expanded="false" signature="139:1111" ph="..." />
-            <marker date="1532745017604" expanded="false" signature="1198:1209" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="1245:1251" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="1303:1314" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="1350:1356" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="1393:1404" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="1440:1446" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="1483:1494" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="1530:1536" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="1573:1584" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="1620:1626" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="1673:1684" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="1720:1726" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="1775:1786" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="1822:1828" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="1863:1874" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="1910:1916" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="1955:1966" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="2002:2008" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="2052:2063" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="2099:2105" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="2142:2153" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="2189:2195" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="2224:2235" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="2271:2277" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="2318:2329" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="2365:2371" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="2407:2418" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="2454:2460" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="2509:2520" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="2556:2562" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="2606:2617" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="2653:2659" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="2699:2710" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="2746:2752" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="2827:2879" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="2962:3014" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="3071:3082" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="3118:3124" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="3209:3261" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="3358:3410" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="3454:3465" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="3501:3507" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="3555:3566" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="3602:3608" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="3640:3651" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="3687:3693" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="3723:3734" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="3770:3776" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="3807:3818" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="3854:3860" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="3899:3910" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="3946:3952" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="4002:4013" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="4049:4055" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="4108:4119" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="4155:4161" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="4190:4201" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="4237:4243" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="4275:4286" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="4322:4328" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="4359:4370" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="4406:4412" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="4447:4458" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="4494:4500" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="4539:4550" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="4586:4592" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="4634:4645" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="4681:4687" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="4729:4740" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="4776:4782" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="4829:4840" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="4876:4882" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="4977:5029" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="5159:5211" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="5285:5337" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="5385:5396" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="5432:5438" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="5484:5495" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="5531:5537" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="5573:5584" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="5620:5626" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="5632:5650" ph="/**...*/" />
-            <marker date="1532745017604" expanded="false" signature="5701:5712" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="5748:5754" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="5760:5778" ph="/**...*/" />
-            <marker date="1532745017604" expanded="false" signature="5830:5841" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="5877:5883" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="5889:5907" ph="/**...*/" />
-            <marker date="1532745017604" expanded="false" signature="5972:5983" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="6019:6025" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="6031:6049" ph="/**...*/" />
-            <marker date="1532745017604" expanded="false" signature="6115:6126" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="6162:6168" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="6174:6192" ph="/**...*/" />
-            <marker date="1532745017604" expanded="true" signature="6272:6324" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="6330:6348" ph="/**...*/" />
-            <marker date="1532745017604" expanded="true" signature="6431:6483" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="6489:6507" ph="/**...*/" />
-            <marker date="1532745017604" expanded="true" signature="6576:6628" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="6674:6685" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="6721:6727" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="6790:6842" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="6893:6904" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="6940:6946" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="7014:7066" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="7219:7271" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="7440:7492" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="7538:7549" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="7585:7591" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="7665:7717" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="7798:7850" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="8043:8095" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="8165:8217" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="8314:8366" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="8582:8634" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="8640:8658" ph="/**...*/" />
-            <marker date="1532745017604" expanded="false" signature="8725:8736" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="8772:8778" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="8784:8802" ph="/**...*/" />
-            <marker date="1532745017604" expanded="true" signature="8989:9041" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="9047:9065" ph="/**...*/" />
-            <marker date="1532745017604" expanded="false" signature="9134:9145" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="9181:9187" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="9193:9211" ph="/**...*/" />
-            <marker date="1532745017604" expanded="true" signature="9302:9354" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="9360:9378" ph="/**...*/" />
-            <marker date="1532745017604" expanded="true" signature="9588:9640" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="9646:9664" ph="/**...*/" />
-            <marker date="1532745017604" expanded="true" signature="9757:9809" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="9895:9947" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="10044:10096" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="10229:10281" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="10425:10477" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="10542:10594" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="10649:10660" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="10696:10702" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="10768:10820" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="10865:10876" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="10912:10918" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="11002:11054" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="11109:11120" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="11156:11162" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="11267:11319" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="11368:11379" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="11415:11421" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="11485:11537" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="11607:11659" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="11717:11728" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="11764:11770" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="11835:11887" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="11942:11953" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="11989:11995" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="12084:12136" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="12214:12266" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="12350:12402" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="12481:12533" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="12594:12605" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="12641:12647" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="12731:12783" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="12861:12913" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="12980:13032" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="13105:13157" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="13282:13334" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="13431:13483" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="13569:13621" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="13713:13765" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="13909:13961" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="14063:14115" ph="{...}" />
-            <marker date="1532745017604" expanded="true" signature="14200:14252" ph="{...}" />
-            <marker date="1532745017604" expanded="false" signature="14310:14321" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="14357:14363" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="14398:14409" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="14445:14451" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="14509:14520" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="14556:14562" ph=" }" />
-            <marker date="1532745017604" expanded="false" signature="14609:14620" ph=" { " />
-            <marker date="1532745017604" expanded="false" signature="14656:14662" ph=" }" />
-            <marker date="1532745017604" expanded="true" signature="14752:14804" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/Unique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3414,76 +2783,127 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="40" column="57" lean-forward="false" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/faketest.html" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/search results.html" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/Trade - Path of ExileHomePage.html" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/Trade - Path of Exile.html" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/NotSure.html" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.11.3/871302b15d8cee9bfb393c4f1d0386b17646d8d1/jsoup-1.11.3-sources.jar!/org/jsoup/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="148" column="43" lean-forward="false" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.11.3/871302b15d8cee9bfb393c4f1d0386b17646d8d1/jsoup-1.11.3-sources.jar!/org/jsoup/helper/HttpConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.11.3/871302b15d8cee9bfb393c4f1d0386b17646d8d1/jsoup-1.11.3-sources.jar!/org/jsoup/Jsoup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/AsyncTask.java" />
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/java/util/concurrent/ThreadPoolExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="66" column="23" lean-forward="false" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/os/AsyncTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/PoE Goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/HtmlSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/Unique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pathofexileuniques/eddytom/com/pathofexileuniques/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5675">
-          <caret line="153" column="49" lean-forward="false" selection-start-line="153" selection-start-column="49" selection-end-line="153" selection-end-column="49" />
+        <state relative-caret-position="26547">
+          <caret line="2761" column="0" lean-forward="true" selection-start-line="2761" selection-start-column="0" selection-end-line="2761" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1715#3772#0" expanded="true" />
-            <element signature="e#3771#3772#0" expanded="true" />
-            <element signature="e#5338#5702#0" expanded="true" />
-            <element signature="e#5701#5702#0" expanded="true" />
-            <element signature="e#5754#6375#0" expanded="true" />
-            <element signature="e#6374#6375#0" expanded="true" />
-            <element signature="e#6413#7033#0" expanded="true" />
-            <element signature="e#7032#7033#0" expanded="true" />
-            <element signature="e#7072#7751#0" expanded="true" />
-            <element signature="e#7750#7751#0" expanded="true" />
-            <element signature="e#7788#8467#0" expanded="true" />
-            <element signature="e#8466#8467#0" expanded="true" />
-            <element signature="e#8503#9182#0" expanded="true" />
-            <element signature="e#9181#9182#0" expanded="true" />
-            <element signature="e#9220#9899#0" expanded="true" />
-            <element signature="e#9898#9899#0" expanded="true" />
-            <element signature="e#9937#10608#0" expanded="true" />
-            <element signature="e#10607#10608#0" expanded="true" />
-            <element signature="e#10644#11371#0" expanded="true" />
-            <element signature="e#11370#11371#0" expanded="true" />
-            <element signature="e#11408#12135#0" expanded="true" />
-            <element signature="e#12134#12135#0" expanded="true" />
-            <element signature="e#12173#12900#0" expanded="true" />
-            <element signature="e#12899#12900#0" expanded="true" />
-            <element signature="e#12939#13666#0" expanded="true" />
-            <element signature="e#13665#13666#0" expanded="true" />
-            <element signature="e#13705#14432#0" expanded="true" />
-            <element signature="e#14431#14432#0" expanded="true" />
-            <element signature="e#14471#15346#0" expanded="true" />
-            <element signature="e#15345#15346#0" expanded="true" />
-            <element signature="e#15382#16301#0" expanded="true" />
-            <element signature="e#16300#16301#0" expanded="true" />
-            <element signature="e#16337#17257#0" expanded="true" />
-            <element signature="e#17256#17257#0" expanded="true" />
-            <element signature="e#17294#18214#0" expanded="true" />
-            <element signature="e#18213#18214#0" expanded="true" />
-            <element signature="e#18253#19173#0" expanded="true" />
-            <element signature="e#19172#19173#0" expanded="true" />
-            <element signature="e#19212#20132#0" expanded="true" />
-            <element signature="e#20131#20132#0" expanded="true" />
-            <element signature="e#20169#21089#0" expanded="true" />
-            <element signature="e#21088#21089#0" expanded="true" />
-            <element signature="e#21127#22047#0" expanded="true" />
-            <element signature="e#22046#22047#0" expanded="true" />
-            <element signature="e#22085#23005#0" expanded="true" />
-            <element signature="e#23004#23005#0" expanded="true" />
-            <element signature="e#23042#23962#0" expanded="true" />
-            <element signature="e#23961#23962#0" expanded="true" />
-            <element signature="e#24000#24776#0" expanded="true" />
-            <element signature="e#24775#24776#0" expanded="true" />
-            <element signature="e#24814#25590#0" expanded="true" />
-            <element signature="e#25589#25590#0" expanded="true" />
-            <element signature="e#25626#26402#0" expanded="true" />
-            <element signature="e#26401#26402#0" expanded="true" />
-            <element signature="e#26440#27177#0" expanded="true" />
-            <element signature="e#27176#27177#0" expanded="true" />
-            <element signature="e#28886#29734#0" expanded="true" />
-            <element signature="e#29733#29734#0" expanded="true" />
-            <element signature="e#30648#31014#0" expanded="true" />
-            <element signature="e#31013#31014#0" expanded="true" />
           </folding>
         </state>
       </provider>

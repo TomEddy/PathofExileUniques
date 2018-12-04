@@ -1,11 +1,10 @@
 package pathofexileuniques.eddytom.com.pathofexileuniques;
 
-import java.util.ArrayList;
 
 public class Unique{
     private final String name;
     private final int category;
-    private final ArrayList<String> attributes;
+    private final String url;
     private final int image_Resource;
     private int index;
 
@@ -13,15 +12,15 @@ public class Unique{
     public Unique(){
         name = null;
         category = -10;
-        attributes = null;
+        url = null;
         image_Resource = -10;
         index = -10;
     }
 
-    public Unique(String n, int cat, ArrayList<String> att, int image_Res){
+    public Unique(String n, int cat, String att, int image_Res){
         name = n;
         category = cat;
-        attributes = att;
+        url = att;
         image_Resource = image_Res;
         index = -10;
     }
@@ -38,8 +37,8 @@ public class Unique{
         return name;
     }
 
-    public ArrayList<String> getAttributes(){
-        return attributes;
+    public String getURL(){
+        return url;
     }
 
     public int getIndex(){return index;}
