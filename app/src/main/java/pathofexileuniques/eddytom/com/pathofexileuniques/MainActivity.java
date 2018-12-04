@@ -6,37 +6,33 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import org.jsoup.Connection;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button all,cat,search,myUniq,amulets,belts,rings,quivers,body,boots,gloves,helmets,shields,axes,bows,claws,daggers,fishing,maces,staves,swords,wands,flasks,jewels,maps,access,armour,weapons;
+    private Button all,cat,search,myUniq,amulets,belts,rings,quivers,body,boots,gloves,helmets,shields,axes,bows,claws,daggers,fishing,maces,staves,swords,wands,flasks,jewels,maps,access,armour,weapons,price;
     private ImageView display,searchdisplay;
+    private TextView priceView;
+    private LinearLayout priceLayout;
     private AutoCompleteTextView search_bar;
     private ArrayAdapter search_adapter;
     private int counter;
@@ -47,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -87,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 access.setVisibility(View.GONE);
                 armour.setVisibility(View.GONE);
                 weapons.setVisibility(View.GONE);
+                priceLayout.setVisibility(View.GONE);
 
 
 
@@ -99,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //UI Initialization
         all = findViewById(R.id.All_but);
         cat = findViewById(R.id.Catagories_but);
         search = findViewById(R.id.Search_but);
@@ -130,6 +128,9 @@ public class MainActivity extends AppCompatActivity {
         access = findViewById(R.id.accessories_but);
         armour = findViewById(R.id.armour_but);
         weapons = findViewById(R.id.weapons_but);
+        price = findViewById(R.id.price_btn);
+        priceView = findViewById(R.id.price_output);
+        priceLayout = findViewById(R.id.price_dropdown);
         counter = 0;
         setUp();
 
@@ -694,7 +695,7 @@ public class MainActivity extends AppCompatActivity {
         display.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
 
             public void onSwipeTop() {
-                //Toast.makeText(MainActivity.this, "top", Toast.LENGTH_SHORT).show();
+                priceLayout.setVisibility(View.GONE);
             }
             public void onSwipeRight() {
                 if(counter > 0) {
@@ -713,7 +714,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 }
             public void onSwipeBottom() {
-                //Toast.makeText(MainActivity.this, "bottom", Toast.LENGTH_SHORT).show();
+                priceLayout.setVisibility(View.VISIBLE);
             }
 
             public void onDT() {
@@ -753,12 +754,14 @@ public class MainActivity extends AppCompatActivity {
         searchdisplay.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
 
             public void onSwipeTop() {
+                priceLayout.setVisibility(View.GONE);
             }
             public void onSwipeRight() {
             }
             public void onSwipeLeft() {
             }
             public void onSwipeBottom() {
+                priceLayout.setVisibility(View.VISIBLE);
             }
             public void onDT() {
                 if(savedList.contains(tempList.get(counter))){
@@ -782,6 +785,20 @@ public class MainActivity extends AppCompatActivity {
                 myUniq.setVisibility(View.GONE);
 
                 search_bar.setVisibility(View.VISIBLE);
+            }
+        });
+
+        price.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "http://poe.trade/search/ateasarikokony";
+                new HtmlSync(url){
+                    @Override public void onPostExecute(String result)
+                    {
+                        Toast.makeText(MainActivity.this, result, Toast.LENGTH_SHORT).show();
+                        priceView.setText(result);
+                    }
+                }.execute();
             }
         });
     }
@@ -809,7 +826,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 private void setUp(){
-
+    //Experiment of url updater not checked.
     Unique Aruku = new Unique("Araku Tiki", 0, "http://poe.trade/search/eyehohokuihuko", R.drawable.arakutiki);
     Unique Astra = new Unique("Astramentis", 0, "http://poe.trade/search/amosiyukinamit", R.drawable.astramentis);
     Unique AtziriFoi = new Unique("Atziri's Foible", 0, "http://poe.trade/search/iwoonononasika", R.drawable.atzirifoible);
@@ -1176,6 +1193,7 @@ private void setUp(){
     Unique OndarsClasp = new Unique("Ondar's Clasp", 6, "http://poe.trade/search/onahukonatotet", R.drawable.ondarsclasp);
     Unique ShadowsandDust = new Unique("Shadows and Dust", 6, "http://poe.trade/search/izubenodutakub", R.drawable.shadowsanddust);
     Unique SlavedriversHand = new Unique("Slavedriver's Hand", 6, "http://poe.trade/search/oyaririkisitat", R.drawable.slavedrivershand);
+    //End update experiment
     Unique Snakebite = new Unique("Snakebite", 6, "http://poe.trade/", R.drawable.snakebite);
     Unique TheEmbalmer = new Unique("The Embalmer", 6, " ", R.drawable.theembalmer);
     Unique Thunderfist = new Unique("Thunderfist", 6, " ", R.drawable.thunderfist);
@@ -2720,12 +2738,6 @@ private void setUp(){
         catch (IOException e) {
             Log.e("Exception", "File write failed: " + e.toString());
         }
-        new HtmlSync(){
-            @Override public void onPostExecute(String result)
-            {
-                Toast.makeText(MainActivity.this, result, Toast.LENGTH_SHORT).show();
-            }
-        }.execute();
     }
 
     private String readFromFile(Context context) {

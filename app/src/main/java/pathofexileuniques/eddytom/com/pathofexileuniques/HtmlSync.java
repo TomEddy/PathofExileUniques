@@ -6,21 +6,26 @@ import android.util.Log;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 
 import java.io.IOException;
 
-class HtmlSync extends AsyncTask<Void, Integer, String>
-{
+class HtmlSync extends AsyncTask<Void, Integer, String> {
     String TAG = getClass().getSimpleName();
-    String title;
+    String price;
+    String url;
 
-    protected void onPreExecute (){
-        super.onPreExecute();
-        Log.d(TAG + " PreExceute","On pre Exceute we currently do nothing.");
+    HtmlSync(String u) {
+        url = u;
     }
 
-    protected String doInBackground(Void...arg0) {
-        Log.d(TAG + " DoINBackGround","On doInBackground we are pinging website for html.");
+    protected void onPreExecute() {
+        super.onPreExecute();
+        Log.d(TAG + " PreExceute", "On pre Exceute we currently do nothing.");
+    }
+
+    protected String doInBackground(Void... arg0) {
+        Log.d(TAG + " DoINBackGround", "On doInBackground we are pinging website for html.");
 
         //Something to do with a progress bar.
        /* for(int i=0; i<10; i++){
@@ -28,25 +33,21 @@ class HtmlSync extends AsyncTask<Void, Integer, String>
             publishProgress(i);
         }*/
         try {
-            String url = "http://poe.trade/";
-
-            Connection.Response res = Jsoup.connect(url).timeout(10000000).execute();
-
+            Connection.Response res = Jsoup.connect(url).timeout(1000000).execute();
             Document doc = res.parse();
-            title = doc.title();
+            Element table = doc.selectFirst("tbody");
+            price = table.attr("data-buyout");
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return title;
+        return price;
     }
 
-    protected void onProgressUpdate(Integer...a){
+    protected void onProgressUpdate(Integer... a) {
         super.onProgressUpdate(a);
         Log.d(TAG + " onProgressUpdate", "You are in progress update ... " + a[0]);
     }
 
     protected void onPostExecute(String result) {
-        super.onPostExecute(result);
-        Log.d(TAG + " onPostExecute", "" + title);
     }
 }

@@ -14,6 +14,37 @@
         android:background="@color/colorBackground"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:id="@+id/price_dropdown"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/price_output"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="TextView"
+                android:textColor="@color/colorText"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/price_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_but"
+                android:text="Price"
+                android:textColor="@color/colorText"
+                android:textSize="24sp" />
+        </LinearLayout>
+
         <Button
             android:id="@+id/All_but"
             android:layout_width="match_parent"
@@ -412,7 +443,7 @@
             android:id="@+id/ItemDisplay"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="4"
             android:visibility="gone"
             app:srcCompat="@drawable/arakutiki" />
 
@@ -420,7 +451,7 @@
             android:id="@+id/searchDisplay"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="4"
             android:visibility="gone"
             app:srcCompat="@drawable/arakutiki" />
 
